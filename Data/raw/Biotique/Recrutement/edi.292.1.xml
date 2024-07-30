@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="edi.292.1" scope="system"
+  system="https://pasta.edirepository.org"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd  http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=EDI,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=pedmunds,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <!-- LTREB USVI IM account -->
+      <principal>uid=ltrebusvi,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset scope="document">
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/c22c4c8064634988f680a004e8ed9876</alternateIdentifier>
+    <shortName>VINP Recruit Spat Counts</shortName>
+    <title>Virgin Islands National Park: Coral Reef: Recruitment Tiles</title>
+    <creator id="csun" scope="document">
+      <organizationName>California State University Northridge</organizationName>
+      <address scope="document">
+        <deliveryPoint>Deptartment of Biology, California State University</deliveryPoint>
+        <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+        <city>Northridge</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>91330-8303</postalCode>
+        <country>USA</country>
+      </address>
+      <onlineUrl>http://mcr.lternet.edu/vinp/</onlineUrl>
+    </creator>
+    <creator id="peteEdmunds" scope="document">
+      <individualName>
+        <salutation>Dr</salutation>
+        <givenName>Peter</givenName>
+        <surName>Edmunds</surName>
+      </individualName>
+      <organizationName>California State University Northridge</organizationName>
+      <positionName>Principal Investigator</positionName>
+      <address scope="document">
+        <deliveryPoint>Deptartment of Biology, California State University</deliveryPoint>
+        <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+        <city>Northridge</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>91330-8303</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">+1(818)677-2502</phone>
+      <phone phonetype="fax">+1(818)677-2034</phone>
+      <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+      <onlineUrl>http://www.csun.edu/biology/faculty/edmunds.htm</onlineUrl>
+    </creator>
+    <pubDate>2018-10-07</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>In this study, coral recruitment was measured on a kilometer-wide scale on
+				shallow (5–6 m depth) fringing reefs in St. John, US Virgin Islands, with the
+				objective of determining the extent to which variation in recruitment was affected
+				by biophysical coupling involving temperature and flow. Coral recruitment was
+				measured using settlement tiles deployed at 10 sites along 10 km of shore. The tiles
+				were first deployed in August 2006, and thereafter replaced every ≈6 months to
+				sample from either August to January, or January to August over 2 years. Seawater
+				temperature was recorded at the 10 sites using logging thermistors, and flow was
+				quantified using drogues. Overall, corals recruited at a rate equivalent to 76
+				corals m− 2 6 months− 1, and were represented mostly by poritids (43% of recruits),
+				agaricids (29%), faviids (17%) and siderastreids (7%). Although the density of
+				recruits differed among sites in a pattern that varied among periods and years,
+				there was a consistent trend for mean density to decline from ≈ 4 corals tile− 1 at
+				eastern sites, to ≤ 1 coral tile− 1 at western sites. One aspect of seawater
+				temperature – the daily range – differed among sites and was greater at western
+				compared to eastern sites, and while it was related inversely to recruitment over
+				one of the sampling periods, it was equivocal as a physical process affecting
+				recruitment. Instead, our results are consistent with biophysical coupling involving
+				patch depletion and downstream filtering, whereby patches of coral larvae are
+				delivered to the south shore of St. John and depleted of larvae through settlement
+				as the water progresses westward.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">USVI</keyword>
+      <keyword keywordType="theme">VINP</keyword>
+      <keyword keywordType="theme">LTREB</keyword>
+      <keyword keywordType="theme">CSUN</keyword>
+      <keyword keywordType="place">US Virgin Islands National Park</keyword>
+      <keyword keywordType="place">St. John Island</keyword>
+      <keyword keywordType="place">Caribbean</keyword>
+      <keyword keywordType="theme">California State University Northridge</keyword>
+      <keyword keywordType="theme">NSF</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="taxonomic">Scleractinia</keyword>
+      <keyword keywordType="taxonomic">Scleractinian Coral</keyword>
+      <keyword keywordType="theme">Community</keyword>
+      <keyword keywordType="theme">Demographics</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Corals</keyword>
+      <keyword keywordType="theme">Populations</keyword>
+      <keyword keywordType="theme">Carbonate rocks</keyword>
+      <keyword keywordType="theme">Coral Reefs</keyword>
+      <keyword keywordType="theme">Fringing Reefs</keyword>
+      <keyword keywordType="theme">Shallow water</keyword>
+      <keyword keywordType="theme">Marine environments</keyword>
+      <keyword keywordType="theme">Polyps (organisms)</keyword>
+      <keywordThesaurus>NBII Biocomplexity Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Ocean Acidification</keyword>
+      <keyword keywordType="theme">Reef Resistance and Resilience</keyword>
+      <keyword keywordType="theme">Population and Community Dynamics</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>These data were collected by the long-term coral reef dynamics research project in
+				the US Virgin Islands led by Dr. Peter Edmunds at California State University
+				Northridge (CSUN). Data collected under the auspices of research permits issued by
+				the US National Park Service are available to the public after primary publication,
+				or at most two years after the completion of the study unless proprietary
+				restrictions are warranted. Use of CSUN data is subject to acceptance of the
+				following conditions: <itemizedlist>
+          <listitem>
+            <para>1. The user agrees to provide valid name and contact information prior
+							to downloading online data. This information will be used to contact the
+							user in case of changes to the data, and may also be used by data set
+							authors and CSUN project administrators to document data usage.</para>
+          </listitem>
+          <listitem>
+            <para>2. The user agrees to cite the data set author and CSUN in all
+							publications in which the data are used, as per the instructions in the
+							data documentation. If no specific instructions are provided in the data
+							documentation, the user is requested to include the following statement:
+							"Data sets were provided by the Virgin Islands National Park,
+							funded by the US National Science Foundation and other major funding
+							sources: | California State University, Northridge | 2008-2014 –
+							NSF-LTREB – Grant Number - 08-41441 | 2003-2008 - NSF-LTREB – Grant
+							Number – 03-43570 | 2006-2008 - University of Puerto Rico Sea Grant –
+							Grant Number – R-101-1-06 | 2002-2004 - University of Puerto Rico Sea
+							Grant – Grant Number – R-101-2-02 | 1993-1995 - Office of Naval Research
+							– Grant Number N00014-93-1-0440."</para>
+          </listitem>
+          <listitem>
+            <para>3. The user agrees to provide one copy of any manuscript based on CSUN
+							data to the data set author prior to submitting it for
+							publication.</para>
+          </listitem>
+          <listitem>
+            <para>4. The user agrees to send two hard copies of any published manuscript
+							based on CSUN data to the following address: Dr. Peter J. Edmunds |
+							Magnolia Hall 4113 | California State University Northridge |
+							Northridge, CA 91330-8303 | The user also agrees to send one electronic
+							copy (pdf format) to the following e-mail address:
+							peter.edmunds@csun.edu</para>
+          </listitem>
+          <listitem>
+            <para>5. Users are prohibited from selling or redistributing any data
+							provided by CSUN without explicit prior permission.</para>
+          </listitem>
+          <listitem>
+            <para>6. Users are encouraged to contact original investigators responsible
+							for data. Where appropriate, researchers whose projects are integrally
+							dependent on CSUN data are encouraged to consider collaboration and/or
+							co-authorship with original investigators.</para>
+          </listitem>
+          <listitem>
+            <para>7. Extensive efforts are made to ensure that online data are accurate
+							and up to date, but the authors and the CSUN will not take
+							responsibility for any errors that may exist in data provided online.
+							Furthermore, the user assumes all responsibility for errors in analysis
+							or judgment resulting from use of the data.</para>
+          </listitem>
+          <listitem>
+            <para> 8. Any violation of the terms of this agreement will result in
+							immediate forfeiture of the data and loss of access privileges to other
+							CSUN data sets.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </intellectualRights>
+    <coverage scope="document">
+      <geographicCoverage scope="document">
+        <geographicDescription>St. John, US Virgin Islands</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-64.73</westBoundingCoordinate>
+          <eastBoundingCoordinate>-64.72</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.317</northBoundingCoordinate>
+          <southBoundingCoordinate>18.307</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="Yawzi">
+        <geographicDescription>Yawzi (long term photoquadrats)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-64.72551007</westBoundingCoordinate>
+          <eastBoundingCoordinate>-64.72551007</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.31506678</northBoundingCoordinate>
+          <southBoundingCoordinate>18.31506678</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="Tektite">
+        <geographicDescription>Tektite (long term photoquadrats)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-64.72321746</westBoundingCoordinate>
+          <eastBoundingCoordinate>-64.72321746</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.30996508</northBoundingCoordinate>
+          <southBoundingCoordinate>18.30996508</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="Cabritte Horn">
+        <geographicDescription>Cabritte Horn (Random Site)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-64.72164419</westBoundingCoordinate>
+          <eastBoundingCoordinate>-64.72164419</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.30713526</northBoundingCoordinate>
+          <southBoundingCoordinate>18.30713526</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="West Little Lamshur Bay">
+        <geographicDescription>West Little Lamshur Bay (Random Site)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-64.72779501</westBoundingCoordinate>
+          <eastBoundingCoordinate>-64.72779501</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.31725847</northBoundingCoordinate>
+          <southBoundingCoordinate>18.31725847</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="White Point">
+        <geographicDescription>White Point (Random Site)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-64.73130735</westBoundingCoordinate>
+          <eastBoundingCoordinate>-64.73130735</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.31445176</northBoundingCoordinate>
+          <southBoundingCoordinate>18.31445176</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage scope="document">
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2009-08-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2018-06-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <!-- Updated Montestrea taxonomy per Budd, et al., 2012 see methods -->
+        <taxonomicClassification>
+          <taxonRankName>Phylum</taxonRankName>
+          <taxonRankValue>Cnidaria</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Class</taxonRankName>
+            <taxonRankValue>Anthozoa</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Order</taxonRankName>
+              <taxonRankValue>Scleractinia</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Agariciidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Poritidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Acroporidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Siderastreidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Faviidae</taxonRankValue>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Other</taxonRankValue>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>This is an ongoing dataset. Data are collected annually.</para>
+      </description>
+      <maintenanceUpdateFrequency>annually</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact id="csun-vinp-contact-pete" scope="system" system="csun">
+      <positionName>Principal Investigator</positionName>
+      <address scope="document">
+        <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+        <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+        <city>Northridge</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>91330-8303</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">818.677.2502</phone>
+      <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+      <onlineUrl>http://www.csun.edu/biology/faculty/edmunds.htm</onlineUrl>
+    </contact>
+    <contact id="vinps-contact" scope="system" system="csun">
+      <individualName>
+        <salutation>Mr.</salutation>
+        <givenName>Thomas</givenName>
+        <surName>Kelley</surName>
+      </individualName>
+      <organizationName>National Park Service</organizationName>
+      <positionName>Chief</positionName>
+      <address scope="document">
+        <deliveryPoint>Division of Resource Management</deliveryPoint>
+        <deliveryPoint>St John</deliveryPoint>
+        <administrativeArea>US Virgin Islands</administrativeArea>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>Thomas_Kelley@nps.gov</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Sampling Methods</title>
+            <para>These data come from (1) Cabritte Horn, (2) Tektite, (3) Yawzi Point,
+							(4) West Little Lameshur Bay, and (5) White Point. All tiles are at 5-6
+							m depth and these data describe tiles that are on the reef for ~12
+							months with replacement occurring in August of each summer. There are
+							14-16 tiles at each site. Numbers vary due to errors. The tiles
+							are collected, bleached, dried and scored for coral recruits that are
+							scored for presence on the top, side, and bottom of each tile.  Top, Bottom and Side are summed
+							to give densities for "All surfaces" by family. The complete
+							method is described in Green and Edmunds (2011).</para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Reference for algae taxonomy</title>
+            <para> Retrieved March 2011 from on-line database, Integrated Taxonomic
+							Information System (ITIS) http://www.itis.gov/ </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project scope="document">
+      <title>Long-term changes in coral reef community dynamics in St. John, US Virgin Islands</title>
+      <personnel id="pedmunds" scope="document">
+        <individualName>
+          <givenName>Peter</givenName>
+          <surName>Edmunds</surName>
+        </individualName>
+        <organizationName>CSUN</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address scope="document">
+          <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+          <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+          <city>Northridge</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>91330-8303</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">818.677.2502</phone>
+        <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/vinp/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <section>
+          <para> This project focuses on the long-term community dynamics of shallow coral
+						reefs on the south shore of St. John. The project began in 1987 and consists
+						of permanently marked areas that are photographed annually for the analysis
+						of benthic community structure and areas that are censused annually for the
+						density of juvenile corals. All of the work takes place on reefs at less
+						than 14 m depth, and virtually all of the study sites fall between Cabritte
+						Point to the east, and White Point to the west. The project is independent
+						of, but complimentary to, the larger-scale reef monitoring program conducted
+						by the Virgin Islands National Park. The project described here is an
+						independent academic effort led by Dr. Peter Edmunds from California State
+						University, Northridge. </para>
+          <para> The objective of this study is to describe coral reef community dynamics
+						in great detail from a small area to first, elucidate the patterns of change
+						in key components of the benthic coral reefs, and second, to test for
+						processes that drive the changes observed. The core of the project relies on
+						high resolution digital images that have been recorded at least annually
+						since December 1987, and are available here as a invaluable photographic
+						archive for further analysis and to corroborate existing numerical
+						descriptions. In addition to the photographs, the density of juvenile corals
+						has been recorded at multiple sites since 1994. </para>
+        </section>
+      </abstract>
+      <funding>
+        <para>California State University, Northridge</para>
+        <para>National Science Foundation, Division of Environmental Biology</para>
+        <para>2008-2014 – NSF-LTREB – Grant Number - 08-41441</para>
+        <para>2003-2008 - NSF-LTREB – Grant Number – 03-43570</para>
+        <para>2006-2008 - University of Puerto Rico Sea Grant – Grant Number –
+					R-101-1-06</para>
+        <para>2002-2004 - University of Puerto Rico Sea Grant – Grant Number –
+					R-101-2-02</para>
+        <para>1993-1995 - Office of Naval Research – Grant Number N00014-93-1-0440</para>
+      </funding>
+    </project>
+    <dataTable id="spat_counts" scope="document">
+      <entityName>Recruit spat counts</entityName>
+      <entityDescription>Coral recruit spat counts on each side of each tile, classified to family.</entityDescription>
+      <physical scope="document">
+        <objectName>CSUN_USVI_spat_counts_20181007.csv</objectName>
+        <size unit="Kb">28</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/edi/292/1/e8d19fe00b1f869412a30cec7edf3f34</url>
+            <!--  
+							http://mcr.lternet.edu/~hake/share/vinp/for_portal/102/CSUN_USVI_spat_counts_20181007.csv-->
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="spat_counts.site" scope="document">
+          <attributeName>site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Site sampled</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Cabritte Horn</code>
+                    <definition>Site is Cabritte Horn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tektite</code>
+                    <definition>Site is Tektite</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>West Little Lameshur Bay</code>
+                    <definition>Site is West Little Lameshur Bay</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>White Point</code>
+                    <definition>Site is White Point</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Yawzi</code>
+                    <definition>Site is Yawzi</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="spat_counts.nominal_year" scope="document">
+          <attributeName>nominal_year</attributeName>
+          <attributeLabel>Nominal Year</attributeLabel>
+          <attributeDefinition>Year the tiles were deployed</attributeDefinition>
+          <storageType typeSystem="Excel">varchar</storageType>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="spat_counts.total" scope="document">
+          <attributeName>total</attributeName>
+          <attributeLabel>Total Count</attributeLabel>
+          <attributeDefinition>Total count of all coral species.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="spat_counts.siderastreidae" scope="document">
+          <attributeName>siderastreidae</attributeName>
+          <attributeLabel>Siderastreidae</attributeLabel>
+          <attributeDefinition>Count of Siderastreidae coral recruits or other.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="spat_counts.faviidae" scope="document">
+          <attributeName>faviidae</attributeName>
+          <attributeLabel>Faviidae</attributeLabel>
+          <attributeDefinition>Count of Faviidae coral recruits or other.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="spat_counts.agaricidae" scope="document">
+          <attributeName>agaricidae</attributeName>
+          <attributeLabel>Agaricidae</attributeLabel>
+          <attributeDefinition>Count of Agaricidae coral recruits or other.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="spat_counts.poritidae" scope="document">
+          <attributeName>poritidae</attributeName>
+          <attributeLabel>Poritidae</attributeLabel>
+          <attributeDefinition>Count of Poritidae coral recruits or other.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="spat_counts.acroporidae" scope="document">
+          <attributeName>acroporidae</attributeName>
+          <attributeLabel>Acroporidae</attributeLabel>
+          <attributeDefinition>Count of Acroporidae coral recruits or other.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="spat_counts.other" scope="document">
+          <attributeName>other</attributeName>
+          <attributeLabel>Other</attributeLabel>
+          <attributeDefinition>Count of other coral species recruits.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="spat_counts.Astrangia" scope="document">
+          <attributeName>astrangia</attributeName>
+          <attributeLabel>Astrangia</attributeLabel>
+          <attributeDefinition>Count of Astrangia coral species recruits or other.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>730</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <stmml:unitList>
+          <stmml:unit abbreviation="" id="dimensionless"
+            name="dimensionless" unitType="dimensionless">
+            <stmml:description>a designation asserting the absence of an associated
+							unit</stmml:description>
+          </stmml:unit>
+          <stmml:unit abbreviation="" id="percent" name="percent" unitType="dimensionless">
+            <stmml:description>ratio of two quantities as percent composition
+							(1:100)</stmml:description>
+          </stmml:unit>
+          <stmml:unit abbreviation="umol/m2/d"
+            id="micromolePerSquareMeterPerDay"
+            name="micromolePerSquareMeterPerDay" unitType="amountOfSubstanceFlux">
+            <stmml:description>micromole per meter squared per day</stmml:description>
+          </stmml:unit>
+        </stmml:unitList>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

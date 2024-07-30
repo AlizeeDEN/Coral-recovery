@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="edi.296.1" scope="system"
+  system="https://pasta.edirepository.org"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd     http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=EDI,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=pedmunds,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <!-- LTREB USVI IM account -->
+      <principal>uid=ltrebusvi,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset scope="document">
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/f68ca3604ca632eabcd31712ca0cd622</alternateIdentifier>
+    <shortName>VINP Physical Measurements</shortName>
+    <title>Virgin Islands National Park: Coral Reef: Physical Measurements</title>
+    <creator id="csun" scope="document">
+      <organizationName>California State University Northridge</organizationName>
+      <address scope="document">
+        <deliveryPoint>Deptartment of Biology, California State University</deliveryPoint>
+        <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+        <city>Northridge</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>91330-8303</postalCode>
+        <country>USA</country>
+      </address>
+      <onlineUrl>http://mcr.lternet.edu/vinp/</onlineUrl>
+    </creator>
+    <creator id="peteEdmunds" scope="document">
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Peter</givenName>
+        <surName>Edmunds</surName>
+      </individualName>
+      <organizationName>California State University Northridge</organizationName>
+      <positionName>Principal Investigator</positionName>
+      <address scope="document">
+        <deliveryPoint>Deptartment of Biology, California State University</deliveryPoint>
+        <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+        <city>Northridge</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>91330-8303</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">+1(818)677-2502</phone>
+      <phone phonetype="fax">+1(818)677-2034</phone>
+      <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+      <onlineUrl>http://www.csun.edu/biology/faculty/edmunds.htm</onlineUrl>
+    </creator>
+    <pubDate>2019-06-09</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>These data have been utilized for several publications analyzing different
+                aspects of seawater temperature, including Edmunds: Royal Society 2006, Green et al:
+                Journal of Experimental Marine Biology and Ecology 2010, Green and Edmunds: Journal
+                of Experimental Marine Biology and Ecology 2011, and Edmunds: Marine Ecology Project
+                Series 2013. Temperatures were averaged by day and month and used to calculate
+                annual mean and range using monthly mean temperatures. Daily temperatures were used
+                to categorize days as hot (&gt; 29.3°C) or cold (≤ 26.0°C), with hot days exceeding the
+                coral bleaching threshold for St. John (http://coralreefwatch.noaa.gov/satellite),
+                and ‘cold days’ less than or equal to the lower 12th percentile of daily seawater
+                temperatures in Great Lameshur Bay between 1989-2005 (Edmunds 2006).This dataset cotains data annually updated data ongoing since July 1999.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">USVI</keyword>
+      <keyword keywordType="theme">VINP</keyword>
+      <keyword keywordType="theme">LTREB</keyword>
+      <keyword keywordType="theme">CSUN</keyword>
+      <keyword keywordType="place">US Virgin Islands National Park</keyword>
+      <keyword keywordType="place">St. John Island</keyword>
+      <keyword keywordType="place">Caribbean</keyword>
+      <keyword keywordType="theme">California State University Northridge</keyword>
+      <keyword keywordType="theme">NSF</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="taxonomic">Scleractinia</keyword>
+      <keyword keywordType="taxonomic">Scleractinian Coral</keyword>
+      <keyword keywordType="theme">Community</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Corals</keyword>
+      <keyword keywordType="theme">Populations</keyword>
+      <keyword keywordType="theme">Temperature</keyword>
+      <keyword keywordType="theme">Coral Reefs</keyword>
+      <keyword keywordType="theme">Marine environments</keyword>
+      <keyword keywordType="theme">Polyps (organisms)</keyword>
+      <keyword keywordType="theme">Sea water</keyword>
+      <keyword keywordType="theme">Water temperature</keyword>
+      <keyword keywordType="theme">Temperature effects</keyword>
+      <keyword keywordType="theme">Ocean temperature</keyword>
+      <keywordThesaurus>NBII Biocomplexity Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Ocean Acidification</keyword>
+      <keyword keywordType="theme">Reef Resistance and Resilience</keyword>
+      <keyword keywordType="theme">Population and Community Dynamics</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>These data were collected by the long-term coral reef dynamics research project in
+                the US Virgin Islands led by Dr. Peter Edmunds at California State University
+                Northridge (CSUN). Data collected under the auspices of research permits issued by
+                the US National Park Service are available to the public after primary publication,
+                or at most two years after the completion of the study unless proprietary
+                restrictions are warranted.</para>
+      <para>This data package is released under the Creative Commons license Attribution 
+                4.0 International (CC BY 4.0 , see https://creativecommons.org/licenses/by/4.0/).
+                This license states that consumers ("Data Users" herein) may distribute, adapt, 
+                reuse, remix, and build upon this work, as long as they give appropriate credit,
+                provide a link to the license, and indicate if changes were made. If redistributed,
+                a Data User may not apply additional restrictions or technological measures that
+                prevent access.</para>
+      <para>The Data User has an ethical obligation to cite the data source appropriately
+                in any publication or product that results from its use, and notify the data
+                contact or creator. Communication, collaboration, or co-authorship (as appropriate)
+                with the creators of this data package is encouraged to prevent duplicate research
+                or publication. The Data User is urged to contact the authors of these data if any
+                questions about methodology or results occur. The Data User should realize that
+                these data may be actively used by others for ongoing research and that coordination
+                may be necessary to prevent duplication or inappropriate use. The Data User should
+                realize that misinterpretation may occur if data are used outside of the context
+                of the original study. The Data User should be aware that data are updated 
+                periodically and it is the responsibility of the Data User to check for new versions
+                of the data.</para>
+      <para>While substantial efforts are made to ensure the accuracy of data and associated 
+                documentation, complete accuracy of data sets cannot be guaranteed. This data package
+                (with its components) is made available “as is” and with no warranty of accuracy or 
+                fitness for use. The creators of this data package and the repository where these data
+                were obtained shall not be liable for any damages resulting from misinterpretation, 
+                use or misuse of the data package or its components.
+            </para>
+    </intellectualRights>
+    <coverage scope="document">
+      <geographicCoverage scope="document">
+        <geographicDescription>St. John, US Virgin Islands</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-64.73</westBoundingCoordinate>
+          <eastBoundingCoordinate>-64.72</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.317</northBoundingCoordinate>
+          <southBoundingCoordinate>18.307</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="Yawzi">
+        <geographicDescription>Yawzi (long term photoquadrats)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-64.72551007</westBoundingCoordinate>
+          <eastBoundingCoordinate>-64.72551007</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.31506678</northBoundingCoordinate>
+          <southBoundingCoordinate>18.31506678</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage scope="document">
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1972-07-14</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2017-11-30</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>This is an ongoing dataset. Data are collected annually.</para>
+      </description>
+      <maintenanceUpdateFrequency>annually</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact id="csun-vinp-contact-pete" scope="system" system="csun">
+      <positionName>Principal Investigator</positionName>
+      <address scope="document">
+        <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+        <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+        <city>Northridge</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>91330-8303</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">818.677.2502</phone>
+      <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+      <onlineUrl>http://www.csun.edu/biology/faculty/edmunds.htm</onlineUrl>
+    </contact>
+    <contact id="vinps-contact" scope="system" system="csun">
+      <individualName>
+        <salutation>Mr.</salutation>
+        <givenName>Thomas</givenName>
+        <surName>Kelley</surName>
+      </individualName>
+      <organizationName>National Park Service</organizationName>
+      <positionName>Chief</positionName>
+      <address scope="document">
+        <deliveryPoint>Division of Resource Management</deliveryPoint>
+        <deliveryPoint>St John</deliveryPoint>
+        <administrativeArea>US Virgin Islands</administrativeArea>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>Thomas_Kelley@nps.gov</electronicMailAddress>
+    </contact>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <individualName>
+        <givenName>Hannah</givenName>
+        <surName>Ake</surName>
+      </individualName>
+      <electronicMailAddress>ake.hannah@gmail.com</electronicMailAddress>
+      <onlineUrl>http://coralreefs.csun.edu/</onlineUrl>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Measurment of Seawater Temperature</title>
+            <para>Seawater temperature was recorded every 15-30 min using a Ryan
+                            Industries thermistor (± 0.3°C accuracy) at 11-m depth from January 1989
+                            to April 1997, and from November 1997 to August 1999; an Optic Stowaway
+                            logger (± 0.2°C accuracy) at 9-m depth from May 1997 to October 1997,
+                            and from August 1999 to August 2001; and a Hobo Aquapro logger (± 0.2°C
+                            accuracy) at 9-m depth from August 2001 to August 2011. Temperatures
+                            were averaged by day and month and used to calculate annual mean and
+                            range using monthly mean temperatures. Daily temperatures were used to
+                            categorize days as hot (&gt; 29.3°C) or cold (≤ 26.0°C), with hot days
+                            exceeding the coral bleaching threshold for St. John
+                            (http://coralreefwatch.noaa.gov/satellite), and ‘cold days’ less than or
+                            equal to the lower 12th percentile of daily seawater temperatures in
+                            Great Lameshur Bay between 1989-2005 (Edmunds 2006). This dataset includes data starting in July 1999.</para>
+          </section>
+          <section>
+            <title>Average Monthly Rainfall</title>
+
+            <para>Average monthly rainfall data was collected by Mr. Rafe Boulon. The data source and other information can be found
+                            via the <ulink url="http://www.sercc.com/cgi-bin/sercc/cliMAIN.pl?vi1980">Southeast Regional Climate Center</ulink>. Data come from rain gauges 
+                            at various locations on the island, mostly from Cruz Bay as listed at SERCC. Please contact Mr.
+                            Boulon for any further questions about methodology at rboulon@gmail.com.</para>
+          </section>
+          <section>
+            <title>Light Intensity</title>
+            <para>Light data are collected by the instrument in situ. Day time values are summed across
+                            the light period to give the total µmol photons/m<superscript>2</superscript>/day<superscript>-1</superscript>,
+                        which is the light added up over the whole day. Night time values are discarded. The standard deviation
+                        of the light values is calculated for each day.</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project scope="document">
+      <title>Long-term changes in coral reef community dynamics in St. John, US Virgin Islands</title>
+      <personnel id="pedmunds" scope="document">
+        <individualName>
+          <givenName>Peter</givenName>
+          <surName>Edmunds</surName>
+        </individualName>
+        <organizationName>CSUN</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address scope="document">
+          <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+          <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+          <city>Northridge</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>91330-8303</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">818.677.2502</phone>
+        <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/vinp/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <section>
+          <para> This project focuses on the long-term community dynamics of shallow coral
+                        reefs on the south shore of St. John. The project began in 1987 and consists
+                        of permanently marked areas that are photographed annually for the analysis
+                        of benthic community structure and areas that are censused annually for the
+                        density of juvenile corals. All of the work takes place on reefs at less
+                        than 14 m depth, and virtually all of the study sites fall between Cabritte
+                        Point to the east, and White Point to the west. The project is independent
+                        of, but complimentary to, the larger-scale reef monitoring program conducted
+                        by the Virgin Islands National Park. The project described here is an
+                        independent academic effort led by Dr. Peter Edmunds from California State
+                        University, Northridge. </para>
+          <para> The objective of this study is to describe coral reef community dynamics
+                        in great detail from a small area to first, elucidate the patterns of change
+                        in key components of the benthic coral reefs, and second, to test for
+                        processes that drive the changes observed. The core of the project relies on
+                        high resolution digital images that have been recorded at least annually
+                        since December 1987, and are available here as a invaluable photographic
+                        archive for further analysis and to corroborate existing numerical
+                        descriptions. In addition to the photographs, the density of juvenile corals
+                        has been recorded at multiple sites since 1994. </para>
+        </section>
+      </abstract>
+      <funding>
+        <para>California State University, Northridge</para>
+        <para>National Science Foundation, Division of Environmental Biology</para>
+        <para>2021 - NSF-OCE – Grant Number: 17-56678</para>
+        <para>2019 - NSF-OCE – Grant Number: 18-01335 RAPID</para>
+        <para>2019 - NSF-OCE – Grant Number: 13-50146</para>
+        <para>2008-2014 – NSF-LTREB – Grant Number - 08-41441</para>
+        <para>2003-2008 - NSF-LTREB – Grant Number – 03-43570</para>
+        <para>2006-2008 - University of Puerto Rico Sea Grant – Grant Number –
+                    R-101-1-06</para>
+        <para>2002-2004 - University of Puerto Rico Sea Grant – Grant Number –
+                    R-101-2-02</para>
+        <para>1993-1995 - Office of Naval Research – Grant Number N00014-93-1-0440</para>
+      </funding>
+    </project>
+    <dataTable id="daily_water_temperature" scope="document">
+      <entityName>Yawzi Water Temperature - Daily Average</entityName>
+      <entityDescription>Average daily water temperature data. Data averaged within a day with records collected
+                every 15 minutes.</entityDescription>
+      <physical scope="document">
+        <objectName>CSUN_USVI_temperature_Daily_20190609.csv</objectName>
+        <size unit="Kb">412</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/edi/296/1/b707dbb7736cb4c1644fe043fb5f771d</url>
+            <!--                            http://mcr.lternet.edu/~hake/share/vinp/for_portal/106/CSUN_USVI_temperature_daily_average_20160301.csv
+                             
+                         -->
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="temperature_daily.owner" scope="document">
+          <attributeName>owner</attributeName>
+          <attributeLabel>Owner</attributeLabel>
+          <attributeDefinition>Origin of data</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>NPS Data</code>
+                    <definition>National Park Service Data from Virgin Islands National Park</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PJE Data</code>
+                    <definition>Data collected by Peter J. Edmunds</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="temperature_daily.site" scope="document">
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Site where temperature was logged.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site of data collection</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="temperature_daily.temperature" scope="document">
+          <attributeName>temperature</attributeName>
+          <attributeLabel>Avg Daily Temperature</attributeLabel>
+          <attributeDefinition>Mean daily temperature logged in degrees celcius. Data averaged within a day with records collected
+                        every 15 minutes.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="temperature_daily.date" scope="document">
+          <attributeName>date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Month, day and year of data collection.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>10569</numberOfRecords>
+    </dataTable>
+    <dataTable id="rainfall" scope="document">
+      <entityName>Average Monthly Rainfall</entityName>
+      <entityDescription>Average monthly rainfall data from 1972-2013</entityDescription>
+      <physical scope="document">
+        <objectName>CSUN_USVI_rainfall_20190609.csv</objectName>
+        <size unit="Kb">19</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/edi/296/1/7639e7563efe3c53800584546e6c249e</url>
+            <!--                             http://mcr.lternet.edu/~hake/share/vinp/for_portal/106/CSUN_USVI_rainfall_20160301.csv 
+                            
+                           
+                         -->
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="rainfall.year" scope="document">
+          <attributeName>Year</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>Year that rainfall was measured.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="rainfall.month" scope="document">
+          <attributeName>Month</attributeName>
+          <attributeLabel>Month</attributeLabel>
+          <attributeDefinition>Month in which rainfall was measured.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Month or Total</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="rainfall.rainfall" scope="document">
+          <attributeName>Rainfall</attributeName>
+          <attributeLabel>Rainfall</attributeLabel>
+          <attributeDefinition>Average monthly rainfall</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>599</numberOfRecords>
+    </dataTable>
+    <dataTable id="light_daily" scope="document">
+      <entityName>Light Intensity - Daily</entityName>
+      <entityDescription>Light intensity, recorded photsynthetically active radiation. Daily from 2008 - 2011.</entityDescription>
+      <physical scope="document">
+        <objectName>CSUN_USVI_light_daily_20150224.csv</objectName>
+        <size unit="Kb">3.8</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/edi/296/1/7c541f670c01fdc5e6d64e08a2271bc7</url>
+            <!--                            http://mcr.lternet.edu/~hake/share/vinp/for_portal/106/CSUN_USVI_light_daily_20150224.csv
+  
+  
+                            -->
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2008-01-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2011-07-30</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="light_daily.date" scope="document">
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date light intensity was recorded</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>DD/MM/YY</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="light_daily.integrated" scope="document">
+          <attributeName>Integrated</attributeName>
+          <attributeLabel>Integrated</attributeLabel>
+          <attributeDefinition>Day time values added across the light period to yield the sum of light over one day.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microEinsteinPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="light_daily.max" scope="document">
+          <attributeName>Max</attributeName>
+          <attributeLabel>Maximum</attributeLabel>
+          <attributeDefinition>Maximum daily light intensity for the day.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>umolphotons/m2/second</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Data not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="light_daily.sd" scope="document">
+          <attributeName>SD</attributeName>
+          <attributeLabel>Standard Deviation</attributeLabel>
+          <attributeDefinition>Standard deviation of light values for each day.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>umolphotons/m2/second</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Data not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>1252</numberOfRecords>
+    </dataTable>
+    <dataTable id="light_5min" scope="document">
+      <entityName>Light Intensity - 5 min</entityName>
+      <entityDescription>Light intensity, recorded photsynthetically active radiation. Recorded every 5 min
+                from August 2007.</entityDescription>
+      <physical scope="document">
+        <objectName>CSUN_USVI_light_5min_20190609.csv</objectName>
+        <size unit="Mb">11.3</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/edi/296/1/6e66cacba8154f5c269335b8341614dd</url>
+            <!--                             http://mcr.lternet.edu/~hake/share/vinp/for_portal/106/CSUN_USVI_light_5min_20150224.csv
+                            
+                        -->
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2007-08-02</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2018-03-13</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="light_5min.date_time" scope="document">
+          <attributeName>date_time</attributeName>
+          <attributeLabel>Date Time Stamp</attributeLabel>
+          <attributeDefinition>Time and date of measurment at Lameshur Bay</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YY 00:00</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="light_5min.PAR_uE" scope="document">
+          <attributeName>PAR_uE</attributeName>
+          <attributeLabel>PAR, uE</attributeLabel>
+          <attributeDefinition>Light intensity, PAR measurement at Lameshur Bay </attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerSquareMeterPerDay</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>530531</numberOfRecords>
+    </dataTable>
+    <dataTable id="light_30sec" scope="document">
+      <entityName>Light Intensity - 30 sec</entityName>
+      <entityDescription>Light intensity, recorded photsynthetically active radiation. Recorded every 30 seconds
+                from August 2014. Gaps in record reflect isntallation or recovery, and battery failures.</entityDescription>
+      <physical scope="document">
+        <objectName>CSUN_USVI_light_30sec_20190609.csv</objectName>
+        <size unit="Mb">2.1</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/edi/296/1/95e48938de34d29be00f129350ee1757</url>
+            <!-->                            http://mcr.lternet.edu/~hake/share/vinp/for_portal/106/CSUN_USVI_light_30sec_20160301.csv
+                            
+                        -->
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2014-08-22</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2016-07-27</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="light_30sec.sample" scope="document">
+          <attributeName>sample</attributeName>
+          <attributeLabel>Sample</attributeLabel>
+          <attributeDefinition>Sample number</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="light_30sec.date" scope="document">
+          <attributeName>date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date sample was measured.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>M/D/YY</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="light_30sec.time" scope="document">
+          <attributeName>time</attributeName>
+          <attributeLabel>Time Stamp</attributeLabel>
+          <attributeDefinition>Time sample was measured.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>00:00:00</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="light_30sec.quantum" scope="document">
+          <attributeName>quantum</attributeName>
+          <attributeLabel>Quantum</attributeLabel>
+          <attributeDefinition>Light intensity, recorded every 30 seconds with Alec 296 meter.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>umolphotons/m2/second</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>76436</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <stmml:unitList>
+          <stmml:unit abbreviation="" id="dimensionless"
+            name="dimensionless" unitType="dimensionless">
+            <stmml:description>a designation asserting the absence of an associated unit</stmml:description>
+          </stmml:unit>
+          <stmml:unit abbreviation="umol/m2/d"
+            id="micromolePerSquareMeterPerDay"
+            name="micromolePerSquareMeterPerDay" unitType="amountOfSubstanceFlux">
+            <stmml:description>micromole per meter squared per day</stmml:description>
+          </stmml:unit>
+          <stmml:unit abbreviation="" id="umolphotons/m2/second"
+            name="umolphotons/m2/second" unitType="">
+            <stmml:description/>
+          </stmml:unit>
+          <stmml:unit abbreviation="µE/m^2"
+            id="microEinsteinPerMeterSquared"
+            name="microEinsteinPerMeterSquared" unitType="illuminance">
+            <stmml:description>
+                            micro Einsteins (1E-06 moles of photons) per square meter (radiant flux)
+                        </stmml:description>
+          </stmml:unit>
+          <stmml:unit abbreviation="cm" constantToSI="0" id="centimeter"
+            multiplierToSI="0.01" name="centimeter" parentSI="meter" unitType="length">
+            <stmml:description>.01 meters</stmml:description>
+          </stmml:unit>
+        </stmml:unitList>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

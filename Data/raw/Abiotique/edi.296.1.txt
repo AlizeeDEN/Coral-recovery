@@ -1,0 +1,333 @@
+Dataset title:  Virgin Islands National Park: Coral Reef: Physical Measurements
+
+Dataset ID:  doi:10.6073/pasta/f68ca3604ca632eabcd31712ca0cd622
+Dataset Creator
+
+	Organization:	California State University Northridge
+	
+	Address:
+			Deptartment of Biology, California State University
+			18111 Nordhoff Street
+			Northridge, CA 91330-8303  USA
+	
+	URL:		http://mcr.lternet.edu/vinp/
+
+	Name:		Dr. Peter Edmunds
+	Position:	Principal Investigator
+	Organization:	California State University Northridge
+	
+	Address:
+			Deptartment of Biology, California State University
+			18111 Nordhoff Street
+			Northridge, CA 91330-8303  USA
+	
+	Phone:		+1(818)677-2502
+	Fax:		+1(818)677-2034
+	Email:		peter.edmunds@csun.edu
+	URL:		http://www.csun.edu/biology/faculty/edmunds.htm
+
+
+Dataset Abstract
+
+	These data have been utilized for several publications analyzing different
+                aspects of seawater temperature, including Edmunds: Royal Society 2006, Green et al:
+                Journal of Experimental Marine Biology and Ecology 2010, Green and Edmunds: Journal
+                of Experimental Marine Biology and Ecology 2011, and Edmunds: Marine Ecology Project
+                Series 2013. Temperatures were averaged by day and month and used to calculate
+                annual mean and range using monthly mean temperatures. Daily temperatures were used
+                to categorize days as hot (> 29.3°C) or cold (≤ 26.0°C), with hot days exceeding the
+                coral bleaching threshold for St. John (http://coralreefwatch.noaa.gov/satellite),
+                and ‘cold days’ less than or equal to the lower 12th percentile of daily seawater
+                temperatures in Great Lameshur Bay between 1989-2005 (Edmunds 2006).This dataset cotains data annually updated data ongoing since July 1999.
+
+
+Dataset Keywords
+
+	USVI
+	VINP
+	LTREB
+	CSUN
+	US Virgin Islands National Park
+	St. John Island
+	Caribbean
+	California State University Northridge
+	NSF
+	Scleractinia
+	Scleractinian Coral
+	Community
+	Corals
+	Populations
+	Temperature
+	Coral Reefs
+	Marine environments
+	Polyps (organisms)
+	Sea water
+	Water temperature
+	Temperature effects
+	Ocean temperature
+	Ocean Acidification
+	Reef Resistance and Resilience
+	Population and Community Dynamics
+
+
+Intellectual Rights
+
+	These data were collected by the long-term coral reef dynamics research project in
+                the US Virgin Islands led by Dr. Peter Edmunds at California State University
+                Northridge (CSUN). Data collected under the auspices of research permits issued by
+                the US National Park Service are available to the public after primary publication,
+                or at most two years after the completion of the study unless proprietary
+                restrictions are warranted.
+	This data package is released under the Creative Commons license Attribution 
+                4.0 International (CC BY 4.0 , see https://creativecommons.org/licenses/by/4.0/).
+                This license states that consumers ("Data Users" herein) may distribute, adapt, 
+                reuse, remix, and build upon this work, as long as they give appropriate credit,
+                provide a link to the license, and indicate if changes were made. If redistributed,
+                a Data User may not apply additional restrictions or technological measures that
+                prevent access.
+	The Data User has an ethical obligation to cite the data source appropriately
+                in any publication or product that results from its use, and notify the data
+                contact or creator. Communication, collaboration, or co-authorship (as appropriate)
+                with the creators of this data package is encouraged to prevent duplicate research
+                or publication. The Data User is urged to contact the authors of these data if any
+                questions about methodology or results occur. The Data User should realize that
+                these data may be actively used by others for ongoing research and that coordination
+                may be necessary to prevent duplication or inappropriate use. The Data User should
+                realize that misinterpretation may occur if data are used outside of the context
+                of the original study. The Data User should be aware that data are updated 
+                periodically and it is the responsibility of the Data User to check for new versions
+                of the data.
+	While substantial efforts are made to ensure the accuracy of data and associated 
+                documentation, complete accuracy of data sets cannot be guaranteed. This data package
+                (with its components) is made available “as is” and with no warranty of accuracy or 
+                fitness for use. The creators of this data package and the repository where these data
+                were obtained shall not be liable for any damages resulting from misinterpretation, 
+                use or misuse of the data package or its components.
+            
+
+
+Geographic Coverage
+
+
+	Bounding Coordinates
+
+		Geographic description:	St. John, US Virgin Islands
+		West bounding coordinate:	-64.73
+		East bounding coordinate:	-64.72
+		North bounding coordinate:	18.317
+		South bounding coordinate:	18.307
+	
+		Geographic description:	Yawzi (long term photoquadrats)
+		West bounding coordinate:	-64.72551007
+		East bounding coordinate:	-64.72551007
+		North bounding coordinate:	18.31506678
+		South bounding coordinate:	18.31506678
+	
+
+
+
+Temporal Coverage
+
+	Start Date:  1972-07-14
+	End Date:  2017-11-30
+
+Maintenance
+
+	This is an ongoing dataset. Data are collected annually.
+
+
+Dataset Contact
+
+	Name:		Hannah Ake
+	Position:	Information Manager
+	Email:		ake.hannah@gmail.com
+	URL:		http://coralreefs.csun.edu/
+
+
+Methods
+
+
+
+	Method Step 
+
+		Description 
+
+
+
+Data Table
+
+	Entity Name:  Yawzi Water Temperature - Daily Average
+	Entity Description:  Average daily water temperature data. Data averaged within a day with records collected
+                every 15 minutes.
+	Object Name:  CSUN_USVI_temperature_Daily_20190609.csv
+
+
+
+Data Format
+
+	Number of Header Lines:  1
+	Attribute Orientation:  column
+	Field Delimiter:  ,
+	Number of Records:  10569
+
+
+
+Attributes
+
+	Attribute Name:  owner
+	Attribute Label:  Owner
+	Attribute Definition:  Origin of data
+	Storage Type:  string
+	Measurement Scale: 
+		NPS Data= National Park Service Data from Virgin Islands National Park
+		PJE Data= Data collected by Peter J. Edmunds
+	Missing Value Code: 
+
+
+	Attribute Name:  Site
+	Attribute Label:  Site
+	Attribute Definition:  Site where temperature was logged.
+	Storage Type:  string
+	Measurement Scale: 
+		Site of data collection
+	Missing Value Code: 
+
+
+	Attribute Name:  temperature
+	Attribute Label:  Avg Daily Temperature
+	Attribute Definition:  Mean daily temperature logged in degrees celcius. Data averaged within a day with records collected
+                        every 15 minutes.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:  celsius
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  date
+	Attribute Label:  Date
+	Attribute Definition:  Month, day and year of data collection.
+	Storage Type:  string
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  Year
+	Attribute Label:  Year
+	Attribute Definition:  Year that rainfall was measured.
+	Storage Type:  string
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  Month
+	Attribute Label:  Month
+	Attribute Definition:  Month in which rainfall was measured.
+	Storage Type:  string
+	Measurement Scale: 
+		Month or Total
+	Missing Value Code: 
+
+
+	Attribute Name:  Rainfall
+	Attribute Label:  Rainfall
+	Attribute Definition:  Average monthly rainfall
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		centimeter
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  Date
+	Attribute Label:  Date
+	Attribute Definition:  Date light intensity was recorded
+	Storage Type:  string
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  Integrated
+	Attribute Label:  Integrated
+	Attribute Definition:  Day time values added across the light period to yield the sum of light over one day.
+	Storage Type:  integer
+	Measurement Scale: 
+		Units:		microEinsteinPerMeterSquared
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  Max
+	Attribute Label:  Maximum
+	Attribute Definition:  Maximum daily light intensity for the day.
+	Storage Type:  integer
+	Measurement Scale: 
+		Units:		umolphotons/m2/second
+		Number Type:  real
+	Missing Value Code: NA  (Data not available)
+
+
+	Attribute Name:  SD
+	Attribute Label:  Standard Deviation
+	Attribute Definition:  Standard deviation of light values for each day.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		umolphotons/m2/second
+		Number Type:  real
+	Missing Value Code: NA  (Data not available)
+
+
+	Attribute Name:  date_time
+	Attribute Label:  Date Time Stamp
+	Attribute Definition:  Time and date of measurment at Lameshur Bay
+	Storage Type:  string
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  PAR_uE
+	Attribute Label:  PAR, uE
+	Attribute Definition:  Light intensity, PAR measurement at Lameshur Bay 
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		micromolePerSquareMeterPerDay
+		Number Type:  real
+	Missing Value Code: 
+
+
+	Attribute Name:  sample
+	Attribute Label:  Sample
+	Attribute Definition:  Sample number
+	Storage Type:  integer
+	Measurement Scale: 
+		Units:		dimensionless
+		Number Type:  integer
+	Missing Value Code: 
+
+
+	Attribute Name:  date
+	Attribute Label:  Date
+	Attribute Definition:  Date sample was measured.
+	Storage Type:  string
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  time
+	Attribute Label:  Time Stamp
+	Attribute Definition:  Time sample was measured.
+	Storage Type:  string
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  quantum
+	Attribute Label:  Quantum
+	Attribute Definition:  Light intensity, recorded every 30 seconds with Alec 296 meter.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		umolphotons/m2/second
+		Number Type:  real
+	Missing Value Code: 
+
+

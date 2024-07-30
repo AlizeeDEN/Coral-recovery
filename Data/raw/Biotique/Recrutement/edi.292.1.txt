@@ -1,0 +1,351 @@
+Dataset title:  Virgin Islands National Park: Coral Reef: Recruitment Tiles
+
+Dataset ID:  doi:10.6073/pasta/c22c4c8064634988f680a004e8ed9876
+Dataset Creator
+
+	Organization:	California State University Northridge
+	
+	Address:
+			Deptartment of Biology, California State University
+			18111 Nordhoff Street
+			Northridge, CA 91330-8303  USA
+	
+	URL:		http://mcr.lternet.edu/vinp/
+
+	Name:		Dr Peter Edmunds
+	Position:	Principal Investigator
+	Organization:	California State University Northridge
+	
+	Address:
+			Deptartment of Biology, California State University
+			18111 Nordhoff Street
+			Northridge, CA 91330-8303  USA
+	
+	Phone:		+1(818)677-2502
+	Fax:		+1(818)677-2034
+	Email:		peter.edmunds@csun.edu
+	URL:		http://www.csun.edu/biology/faculty/edmunds.htm
+
+
+Dataset Abstract
+
+	In this study, coral recruitment was measured on a kilometer-wide scale on
+				shallow (5–6 m depth) fringing reefs in St. John, US Virgin Islands, with the
+				objective of determining the extent to which variation in recruitment was affected
+				by biophysical coupling involving temperature and flow. Coral recruitment was
+				measured using settlement tiles deployed at 10 sites along 10 km of shore. The tiles
+				were first deployed in August 2006, and thereafter replaced every ≈6 months to
+				sample from either August to January, or January to August over 2 years. Seawater
+				temperature was recorded at the 10 sites using logging thermistors, and flow was
+				quantified using drogues. Overall, corals recruited at a rate equivalent to 76
+				corals m− 2 6 months− 1, and were represented mostly by poritids (43% of recruits),
+				agaricids (29%), faviids (17%) and siderastreids (7%). Although the density of
+				recruits differed among sites in a pattern that varied among periods and years,
+				there was a consistent trend for mean density to decline from ≈ 4 corals tile− 1 at
+				eastern sites, to ≤ 1 coral tile− 1 at western sites. One aspect of seawater
+				temperature – the daily range – differed among sites and was greater at western
+				compared to eastern sites, and while it was related inversely to recruitment over
+				one of the sampling periods, it was equivocal as a physical process affecting
+				recruitment. Instead, our results are consistent with biophysical coupling involving
+				patch depletion and downstream filtering, whereby patches of coral larvae are
+				delivered to the south shore of St. John and depleted of larvae through settlement
+				as the water progresses westward.
+
+
+Dataset Keywords
+
+	USVI
+	VINP
+	LTREB
+	CSUN
+	US Virgin Islands National Park
+	St. John Island
+	Caribbean
+	California State University Northridge
+	NSF
+	Scleractinia
+	Scleractinian Coral
+	Community
+	Demographics
+	Corals
+	Populations
+	Carbonate rocks
+	Coral Reefs
+	Fringing Reefs
+	Shallow water
+	Marine environments
+	Polyps (organisms)
+	Ocean Acidification
+	Reef Resistance and Resilience
+	Population and Community Dynamics
+
+
+Intellectual Rights
+
+	These data were collected by the long-term coral reef dynamics research project in
+				the US Virgin Islands led by Dr. Peter Edmunds at California State University
+				Northridge (CSUN). Data collected under the auspices of research permits issued by
+				the US National Park Service are available to the public after primary publication,
+				or at most two years after the completion of the study unless proprietary
+				restrictions are warranted. Use of CSUN data is subject to acceptance of the
+				following conditions: 
+          
+            1. The user agrees to provide valid name and contact information prior
+							to downloading online data. This information will be used to contact the
+							user in case of changes to the data, and may also be used by data set
+							authors and CSUN project administrators to document data usage.
+          
+          
+            2. The user agrees to cite the data set author and CSUN in all
+							publications in which the data are used, as per the instructions in the
+							data documentation. If no specific instructions are provided in the data
+							documentation, the user is requested to include the following statement:
+							"Data sets were provided by the Virgin Islands National Park,
+							funded by the US National Science Foundation and other major funding
+							sources: | California State University, Northridge | 2008-2014 –
+							NSF-LTREB – Grant Number - 08-41441 | 2003-2008 - NSF-LTREB – Grant
+							Number – 03-43570 | 2006-2008 - University of Puerto Rico Sea Grant –
+							Grant Number – R-101-1-06 | 2002-2004 - University of Puerto Rico Sea
+							Grant – Grant Number – R-101-2-02 | 1993-1995 - Office of Naval Research
+							– Grant Number N00014-93-1-0440."
+          
+          
+            3. The user agrees to provide one copy of any manuscript based on CSUN
+							data to the data set author prior to submitting it for
+							publication.
+          
+          
+            4. The user agrees to send two hard copies of any published manuscript
+							based on CSUN data to the following address: Dr. Peter J. Edmunds |
+							Magnolia Hall 4113 | California State University Northridge |
+							Northridge, CA 91330-8303 | The user also agrees to send one electronic
+							copy (pdf format) to the following e-mail address:
+							peter.edmunds@csun.edu
+          
+          
+            5. Users are prohibited from selling or redistributing any data
+							provided by CSUN without explicit prior permission.
+          
+          
+            6. Users are encouraged to contact original investigators responsible
+							for data. Where appropriate, researchers whose projects are integrally
+							dependent on CSUN data are encouraged to consider collaboration and/or
+							co-authorship with original investigators.
+          
+          
+            7. Extensive efforts are made to ensure that online data are accurate
+							and up to date, but the authors and the CSUN will not take
+							responsibility for any errors that may exist in data provided online.
+							Furthermore, the user assumes all responsibility for errors in analysis
+							or judgment resulting from use of the data.
+          
+          
+             8. Any violation of the terms of this agreement will result in
+							immediate forfeiture of the data and loss of access privileges to other
+							CSUN data sets.
+          
+        
+      
+
+
+Geographic Coverage
+
+
+	Bounding Coordinates
+
+		Geographic description:	St. John, US Virgin Islands
+		West bounding coordinate:	-64.73
+		East bounding coordinate:	-64.72
+		North bounding coordinate:	18.317
+		South bounding coordinate:	18.307
+	
+		Geographic description:	Yawzi (long term photoquadrats)
+		West bounding coordinate:	-64.72551007
+		East bounding coordinate:	-64.72551007
+		North bounding coordinate:	18.31506678
+		South bounding coordinate:	18.31506678
+	
+		Geographic description:	Tektite (long term photoquadrats)
+		West bounding coordinate:	-64.72321746
+		East bounding coordinate:	-64.72321746
+		North bounding coordinate:	18.30996508
+		South bounding coordinate:	18.30996508
+	
+		Geographic description:	Cabritte Horn (Random Site)
+		West bounding coordinate:	-64.72164419
+		East bounding coordinate:	-64.72164419
+		North bounding coordinate:	18.30713526
+		South bounding coordinate:	18.30713526
+	
+		Geographic description:	West Little Lamshur Bay (Random Site)
+		West bounding coordinate:	-64.72779501
+		East bounding coordinate:	-64.72779501
+		North bounding coordinate:	18.31725847
+		South bounding coordinate:	18.31725847
+	
+		Geographic description:	White Point (Random Site)
+		West bounding coordinate:	-64.73130735
+		East bounding coordinate:	-64.73130735
+		North bounding coordinate:	18.31445176
+		South bounding coordinate:	18.31445176
+	
+
+
+
+Temporal Coverage
+
+	Start Date:  2009-08-01
+	End Date:  2018-06-01
+
+Maintenance
+
+	This is an ongoing dataset. Data are collected annually.
+
+
+Dataset Contact
+
+
+
+Methods
+
+
+
+	Method Step 
+
+		Description 
+
+
+
+	Method Step 
+
+		Description 
+
+
+
+Data Table
+
+	Entity Name:  Recruit spat counts
+	Entity Description:  Coral recruit spat counts on each side of each tile, classified to family.
+	Object Name:  CSUN_USVI_spat_counts_20181007.csv
+
+
+
+Data Format
+
+	Number of Header Lines:  1
+	Attribute Orientation:  column
+	Field Delimiter:  ,
+	Number of Records:  730
+
+
+
+Attributes
+
+	Attribute Name:  site
+	Attribute Label:  Site
+	Attribute Definition:  Site sampled
+	Storage Type:  string
+	Measurement Scale: 
+		Cabritte Horn= Site is Cabritte Horn
+		Tektite= Site is Tektite
+		West Little Lameshur Bay= Site is West Little Lameshur Bay
+		White Point= Site is White Point
+		Yawzi= Site is Yawzi
+	Missing Value Code: 
+
+
+	Attribute Name:  nominal_year
+	Attribute Label:  Nominal Year
+	Attribute Definition:  Year the tiles were deployed
+	Storage Type:  varchar
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  total
+	Attribute Label:  Total Count
+	Attribute Definition:  Total count of all coral species.
+	Storage Type:  integer
+	Measurement Scale: 
+		Units:  number
+		Number Type:  integer
+	Missing Value Code: 
+
+
+	Attribute Name:  siderastreidae
+	Attribute Label:  Siderastreidae
+	Attribute Definition:  Count of Siderastreidae coral recruits or other.
+	Storage Type:  integer
+	Measurement Scale: 
+		Units:  number
+		Precision:  1
+		Number Type:  whole
+	Missing Value Code: 
+
+
+	Attribute Name:  faviidae
+	Attribute Label:  Faviidae
+	Attribute Definition:  Count of Faviidae coral recruits or other.
+	Storage Type:  integer
+	Measurement Scale: 
+		Units:  number
+		Precision:  1
+		Number Type:  whole
+	Missing Value Code: 
+
+
+	Attribute Name:  agaricidae
+	Attribute Label:  Agaricidae
+	Attribute Definition:  Count of Agaricidae coral recruits or other.
+	Storage Type:  integer
+	Measurement Scale: 
+		Units:  number
+		Precision:  1
+		Number Type:  whole
+	Missing Value Code: 
+
+
+	Attribute Name:  poritidae
+	Attribute Label:  Poritidae
+	Attribute Definition:  Count of Poritidae coral recruits or other.
+	Storage Type:  integer
+	Measurement Scale: 
+		Units:  number
+		Precision:  1
+		Number Type:  whole
+	Missing Value Code: 
+
+
+	Attribute Name:  acroporidae
+	Attribute Label:  Acroporidae
+	Attribute Definition:  Count of Acroporidae coral recruits or other.
+	Storage Type:  integer
+	Measurement Scale: 
+		Units:  number
+		Precision:  1
+		Number Type:  whole
+	Missing Value Code: 
+
+
+	Attribute Name:  other
+	Attribute Label:  Other
+	Attribute Definition:  Count of other coral species recruits.
+	Storage Type:  integer
+	Measurement Scale: 
+		Units:  number
+		Precision:  1
+		Number Type:  whole
+	Missing Value Code: 
+
+
+	Attribute Name:  astrangia
+	Attribute Label:  Astrangia
+	Attribute Definition:  Count of Astrangia coral species recruits or other.
+	Storage Type:  integer
+	Measurement Scale: 
+		Units:  number
+		Precision:  1
+		Number Type:  whole
+	Missing Value Code: 
+
+

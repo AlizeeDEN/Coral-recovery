@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="edi.295.4" scope="system"
+  system="https://pasta.edirepository.org"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd     http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+  <access
+    authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document"
+    system="https://pasta.edirepository.org">
+    <allow><principal>uid=EDI,o=EDI,dc=edirepository,dc=org</principal><permission>all</permission></allow><allow>
+      <principal>uid=pedmunds,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <!-- LTREB USVI IM account -->
+      <principal>uid=ltrebusvi,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset
+      scope="document">
+    <alternateIdentifier
+      system="https://doi.org">doi:10.6073/pasta/ace744f7d9bfdfb012e71c93c1ad0c53</alternateIdentifier><shortName>VINP Juvenile Coral Counts</shortName>
+    <title>Virgin Islands National Park: Coral Reef: Juvenile Coral</title>
+    <creator
+      id="csun"
+        scope="document">
+      <organizationName>California State University Northridge</organizationName>
+      <address
+      scope="document">
+        <deliveryPoint>Deptartment of Biology, California State University</deliveryPoint>
+        <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+        <city>Northridge</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>91330-8303</postalCode>
+        <country>USA</country>
+      </address>
+      <onlineUrl>http://mcr.lternet.edu/vinp/</onlineUrl>
+    </creator>
+    <creator
+      id="peteEdmunds"
+        scope="document">
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Peter</givenName>
+        <surName>Edmunds</surName>
+      </individualName>
+      <organizationName>California State University Northridge</organizationName>
+      <positionName>Principal Investigator</positionName>
+      <address
+        scope="document">
+        <deliveryPoint>Deptartment of Biology, California State University</deliveryPoint>
+        <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+        <city>Northridge</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>91330-8303</postalCode>
+        <country>USA</country>
+      </address>
+      <phone
+        phonetype="voice">+1(818)677-2502</phone>
+      <phone
+        phonetype="fax">+1(818)677-2034</phone>
+      <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+      <onlineUrl>http://www.csun.edu/biology/faculty/edmunds.htm</onlineUrl>
+    </creator>
+    <pubDate>2021-04-01</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>Coral larvae are selective with regards to the surfaces
+                upon which they settle, but little is known about the outcome of these choices. In
+                this study, we explored the implications for juvenile scleractinians (less than
+                40-mm diameter) of growing on igneous versus carbonate rock on the shallow reefs
+                (5-m depth) of St. John, US Virgin Islands. Surveys revealed that juvenile corals
+                occurred at densities of 16 colonies m− 2 and were distributed on igneous and
+                carbonate rocks in proportion to the abundance of these surfaces, suggesting that
+                larvae do not discriminate between rock types at settlement. Repeated surveys
+                demonstrated that all juvenile corals (i.e., pooled among taxa) grew 41% slower on
+                igneous versus carbonate rock between January and August, but not between August and
+                January when the growth was statistically indistinguishable between rock types.
+                Although the growth of the most common juvenile coral, Porites astreoides, was
+                similar on both substrata, the photophysiology of this species was affected by the
+                type of rock. The maximum relative electron transfer rate (rETR, a proxy for
+                photosynthesis) of P. astreoides was down-regulated 30% on igneous compared to
+                carbonate rock. Phylogenetic analyses of the Symbiodinium community sequence
+                profiles within P. astreoides revealed significant differences between substrata,
+                with a greater diversity of co-occurring ITS-2 sequences in corals growing on
+                carbonate compared to igneous rock. While substratum-dependent patterns in the
+                characteristics of juvenile corals suggested there is selective value to the
+                settlement choices made by larvae, these trends did not translate into differences
+                in survival, at least over the time scale investigated. It remains uncertain what
+                features of the rocks affected coral performance, but differences in the temperature
+                of the rock may be an important feature during the warmest period of the
+                year.</para>
+    </abstract>
+    <keywordSet>
+      <keyword
+        keywordType="theme">USVI</keyword>
+      <keyword
+        keywordType="theme">VINP</keyword>
+      <keyword
+        keywordType="theme">LTREB</keyword>
+      <keyword
+        keywordType="theme">CSUN</keyword>
+      <keyword
+        keywordType="place">US Virgin Islands National Park</keyword>
+      <keyword
+        keywordType="place">St. John Island</keyword>
+      <keyword
+        keywordType="place">Caribbean</keyword>
+      <keyword
+        keywordType="theme">California State University Northridge</keyword>
+      <keyword
+        keywordType="theme">NSF</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword
+        keywordType="taxonomic">Scleractinia</keyword>
+      <keyword
+        keywordType="taxonomic">Scleractinian Coral</keyword>
+      <keyword
+        keywordType="theme">Community</keyword>
+      <keyword
+        keywordType="theme">Demographics</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword
+        keywordType="theme">Corals</keyword>
+      <keyword
+        keywordType="theme">Populations</keyword>
+      <keyword
+        keywordType="theme">Carbonate rocks</keyword>
+      <keyword
+        keywordType="theme">Coral Reefs</keyword>
+      <keyword
+        keywordType="theme">Fringing Reefs</keyword>
+      <keyword
+        keywordType="theme">Shallow water</keyword>
+      <keyword
+        keywordType="theme">Marine environments</keyword>
+      <keyword
+        keywordType="theme">Polyps (organisms)</keyword>
+      <keywordThesaurus>NBII Biocomplexity Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword
+        keywordType="theme">larvae</keyword>
+      <keyword
+        keywordType="theme">communities</keyword>
+      <keyword
+        keywordType="theme">community dynamics</keyword>
+      <keywordThesaurus>LTER Keywords</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword
+        keywordType="theme">Ocean Acidification</keyword>
+      <keyword
+        keywordType="theme">Reef Resistance and Resilience</keyword>
+      <keyword
+      keywordType="theme">Population and Community Dynamics</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>These data were collected by the long-term coral reef dynamics research project in
+                the US Virgin Islands led by Dr. Peter Edmunds at California State University
+                Northridge (CSUN). Data collected under the auspices of research permits issued by
+                the US National Park Service are available to the public after primary publication,
+                or at most two years after the completion of the study unless proprietary
+                restrictions are warranted.</para>
+      <para>This data package is released under the Creative Commons license Attribution 
+                4.0 International (CC BY 4.0 , see https://creativecommons.org/licenses/by/4.0/).
+                This license states that consumers ("Data Users" herein) may distribute, adapt, 
+                reuse, remix, and build upon this work, as long as they give appropriate credit,
+                provide a link to the license, and indicate if changes were made. If redistributed,
+                a Data User may not apply additional restrictions or technological measures that
+                prevent access.</para>
+      <para>The Data User has an ethical obligation to cite the data source appropriately
+                in any publication or product that results from its use, and notify the data
+                contact or creator. Communication, collaboration, or co-authorship (as appropriate)
+                with the creators of this data package is encouraged to prevent duplicate research
+                or publication. The Data User is urged to contact the authors of these data if any
+                questions about methodology or results occur. The Data User should realize that
+                these data may be actively used by others for ongoing research and that coordination
+                may be necessary to prevent duplication or inappropriate use. The Data User should
+                realize that misinterpretation may occur if data are used outside of the context
+                of the original study. The Data User should be aware that data are updated 
+                periodically and it is the responsibility of the Data User to check for new versions
+                of the data.</para>
+      <para>While substantial efforts are made to ensure the accuracy of data and associated 
+                documentation, complete accuracy of data sets cannot be guaranteed. This data package
+                (with its components) is made available “as is” and with no warranty of accuracy or 
+                fitness for use. The creators of this data package and the repository where these data
+                were obtained shall not be liable for any damages resulting from misinterpretation, 
+                use or misuse of the data package or its components.</para>
+    </intellectualRights>
+    <coverage
+        scope="document">
+      <geographicCoverage
+        scope="document">
+        <geographicDescription>St. John, US Virgin Islands</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-64.73</westBoundingCoordinate>
+          <eastBoundingCoordinate>-64.72</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.317</northBoundingCoordinate>
+          <southBoundingCoordinate>18.307</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage
+        id="Yawzi">
+        <geographicDescription>Yawzi</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-64.72551007</westBoundingCoordinate>
+          <eastBoundingCoordinate>-64.72551007</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.31506678</northBoundingCoordinate>
+          <southBoundingCoordinate>18.31506678</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage
+        id="Tektite">
+        <geographicDescription>Tektite</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-64.72321746</westBoundingCoordinate>
+          <eastBoundingCoordinate>-64.72321746</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.30996508</northBoundingCoordinate>
+          <southBoundingCoordinate>18.30996508</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage
+        id="Cabritte Horn">
+        <geographicDescription>Cabritte Horn</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-64.72164419</westBoundingCoordinate>
+          <eastBoundingCoordinate>-64.72164419</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.30713526</northBoundingCoordinate>
+          <southBoundingCoordinate>18.30713526</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage
+        id="White Point">
+        <geographicDescription>White Point</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-64.73130735</westBoundingCoordinate>
+          <eastBoundingCoordinate>-64.73130735</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.31445176</northBoundingCoordinate>
+          <southBoundingCoordinate>18.31445176</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage
+        id="Donkey Bite">
+        <geographicDescription>Donkey Bite</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-64.72150338</westBoundingCoordinate>
+          <eastBoundingCoordinate>-64.72150338</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.31588114</northBoundingCoordinate>
+          <southBoundingCoordinate>18.31588114</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage
+      scope="document">
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1994-01-10</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2020-07-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <!-- Updated Montestrea taxonomy per Budd, et al., 2012 see methods -->
+        <taxonomicClassification>
+          <taxonRankName>Phylum</taxonRankName>
+          <taxonRankValue>Cnidaria</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Class</taxonRankName>
+            <taxonRankValue>Hydrozoa</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Order</taxonRankName>
+              <taxonRankValue>Anthoathecata</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Milleporidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Millepora</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+          <taxonomicClassification>
+            <taxonRankName>Class</taxonRankName>
+            <taxonRankValue>Anthozoa</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Order</taxonRankName>
+              <taxonRankValue>Scleractinia</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Acroporidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Acropora</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Siderastreidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Siderastrea</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Astrocoeniidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Stephanocoenia</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Poritidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Porites</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Pocilloporidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Madracis</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Agariciidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Agaricia</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Helioseris</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Leptoseris</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Mussidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Mycetophyllia</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Mussa</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Isophyllastrea</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Scolymia</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Faviidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Favia</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Colpophyllia</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Manicina</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Diploria</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Montastraeidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Montastrea</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Merulinidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Orbicella</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Meandrinidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Meandrina</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Dichocoenia</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Eusmilia</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>This is an ongoing dataset. Data are collected annually.</para>
+      </description>
+      <maintenanceUpdateFrequency>annually</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact
+      id="csun-vinp-contact-pete" scope="system"
+        system="csun">
+      <positionName>Principal Investigator</positionName>
+      <address
+        scope="document">
+        <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+        <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+        <city>Northridge</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>91330-8303</postalCode>
+        <country>USA</country>
+      </address>
+      <phone
+      phonetype="voice">818.677.2502</phone>
+      <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+      <onlineUrl>http://www.csun.edu/biology/faculty/edmunds.htm</onlineUrl>
+    </contact>
+    <contact
+      id="vinps-contact" scope="system"
+        system="csun">
+      <individualName>
+        <salutation>Mr.</salutation>
+        <givenName>Thomas</givenName>
+        <surName>Kelley</surName>
+      </individualName>
+      <organizationName>National Park Service</organizationName>
+      <positionName>Chief</positionName>
+      <address
+      scope="document">
+        <deliveryPoint>Division of Resource Management</deliveryPoint>
+        <deliveryPoint>St John</deliveryPoint>
+        <administrativeArea>US Virgin Islands</administrativeArea>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>Thomas_Kelley@nps.gov</electronicMailAddress>
+    </contact>
+    <contact
+      id="info_mgmt_contact" scope="system"
+        system="csun">
+      <positionName>Information Manager</positionName>
+      <individualName>
+        <givenName>Hannah</givenName>
+        <surName>Ake</surName>
+      </individualName>
+      <phone
+      phonetype="voice">510.205.2018</phone>
+      <electronicMailAddress>ake.hannah@gmail.com</electronicMailAddress>
+    </contact>
+    <publisher><organizationName>Environmental Data Initiative</organizationName><electronicMailAddress>info@environmentaldatainitiative.org</electronicMailAddress><onlineUrl>https://environmentaldatainitiative.org</onlineUrl></publisher><pubPlace>Environmental Data Initiative</pubPlace><methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Please refer to corresponding paper for methods:</title>
+            <para>
+              <ulink>http://dx.doi.org/10.1016/j.jembe.2009.12.008</ulink>
+            </para>
+            <para/>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project
+        scope="document">
+      <title>Long-term changes in coral reef community dynamics in St. John, US Virgin Islands</title>
+      <personnel
+        id="pedmunds"
+          scope="document">
+        <individualName>
+          <givenName>Peter</givenName>
+          <surName>Edmunds</surName>
+        </individualName>
+        <organizationName>CSUN</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address
+          scope="document">
+          <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+          <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+          <city>Northridge</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>91330-8303</postalCode>
+          <country>USA</country>
+        </address>
+        <phone
+      phonetype="voice">818.677.2502</phone>
+        <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/vinp/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <section>
+          <para> This project focuses on the long-term community dynamics of shallow coral
+                        reefs on the south shore of St. John. The project began in 1987 and consists
+                        of permanently marked areas that are photographed annually for the analysis
+                        of benthic community structure and areas that are censused annually for the
+                        density of juvenile corals. All of the work takes place on reefs at less
+                        than 14 m depth, and virtually all of the study sites fall between Cabritte
+                        Point to the east, and White Point to the west. The project is independent
+                        of, but complimentary to, the larger-scale reef monitoring program conducted
+                        by the Virgin Islands National Park. The project described here is an
+                        independent academic effort led by Dr. Peter Edmunds from California State
+                        University, Northridge. </para>
+          <para> The objective of this study is to describe coral reef community dynamics
+                        in great detail from a small area to first, elucidate the patterns of change
+                        in key components of the benthic coral reefs, and second, to test for
+                        processes that drive the changes observed. The core of the project relies on
+                        high resolution digital images that have been recorded at least annually
+                        since December 1987, and are available here as a invaluable photographic
+                        archive for further analysis and to corroborate existing numerical
+                        descriptions. In addition to the photographs, the density of juvenile corals
+                        has been recorded at multiple sites since 1994. </para>
+        </section>
+      </abstract>
+      <funding>
+        <para>California State University, Northridge</para>
+        <para>National Science Foundation, Division of Environmental Biology</para>
+        <para>2008-2014 – NSF-LTREB – Grant Number - 08-41441</para>
+        <para>2003-2008 - NSF-LTREB – Grant Number – 03-43570</para>
+        <para>2006-2008 - University of Puerto Rico Sea Grant – Grant Number –
+                    R-101-1-06</para>
+        <para>2002-2004 - University of Puerto Rico Sea Grant – Grant Number –
+                    R-101-2-02</para>
+        <para>1993-1995 - Office of Naval Research – Grant Number N00014-93-1-0440</para>
+      </funding>
+    </project>
+    <dataTable
+      id="juveniles_wide"
+        scope="document">
+      <entityName>Juvenile Coral Density</entityName>
+      <entityDescription>Density of juvenile corals. These data are from 5-9 m depth and describe the density 
+                of small corals ≤ 40 mm diameter.</entityDescription>
+      <physical
+          scope="document">
+        <objectName>CSUN_USVI_juveniles_wide_20210401.csv</objectName>
+        <size
+          unit="Kb">367</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution
+              scope="document">
+          <online>
+            <url
+          function="download">https://pasta.lternet.edu/package/data/eml/edi/295/4/9a178864bcb301118a52ef998ee45811</url>
+            <!--  http://mcr.lternet.edu/~hake/share/vinp/for_portal/105/CSUN_USVI_juveniles_wide_20210401.csv
+                            -->
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute
+          id="juveniles_wide.site"
+            scope="document">
+          <attributeName>site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Site where juvenile corals were sampled.</attributeDefinition>
+          <storageType
+          typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Cabritte</code>
+                    <definition>Site is Cabritte</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Donkey Bite</code>
+                    <definition>Site is Donkey Bite</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tektite East</code>
+                    <definition>Site is Tektite East</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tektite West</code>
+                    <definition>Site is Tektite West</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Yawzi</code>
+                    <definition>Site is Yawzi</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute
+          id="juveniles_wide.quadrat"
+            scope="document">
+          <attributeName>quadrat</attributeName>
+          <attributeLabel>Quadrat</attributeLabel>
+          <attributeDefinition>Unique quadrat where corals were censused.</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">1</minimum>
+                  <maximum
+          exclusive="false">40</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+          id="juveniles_wide.year"
+            scope="document">
+          <attributeName>year</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>Year of survey.</attributeDefinition>
+          <storageType
+          typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute
+          id="juveniles_wide.acropora"
+            scope="document">
+          <attributeName>Acropora</attributeName>
+          <attributeLabel>Acropora</attributeLabel>
+          <attributeDefinition>Density of Acropora juveniles surveyed.</attributeDefinition>
+          <storageType
+          typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeterPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+          id="juveniles_wide.Agaricia"
+            scope="document">
+          <attributeName>Agaricia</attributeName>
+          <attributeLabel>Agaricia</attributeLabel>
+          <attributeDefinition>Density of Agaricia juveniles surveyed.</attributeDefinition>
+          <storageType
+          typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeterPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+          id="juveniles_wide.Colpohyllia"
+            scope="document">
+          <attributeName>Colpohyllia</attributeName>
+          <attributeLabel>Colpohyllia</attributeLabel>
+          <attributeDefinition>Density of Colpohyllia juveniles surveyed.</attributeDefinition>
+          <storageType
+          typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeterPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+          id="juveniles_wide.Dichocoenia"
+            scope="document">
+          <attributeName>Dichocoenia</attributeName>
+          <attributeLabel>Dichocoenia</attributeLabel>
+          <attributeDefinition>Density of Dichocoenia juveniles surveyed.</attributeDefinition>
+          <storageType
+          typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeterPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+          id="juveniles_wide.Diplora"
+            scope="document">
+          <attributeName>Diplora</attributeName>
+          <attributeLabel>Diplora</attributeLabel>
+          <attributeDefinition>Density of Diplora juveniles surveyed.</attributeDefinition>
+          <storageType
+          typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeterPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+          id="juveniles_wide.Eusmilia"
+            scope="document">
+          <attributeName>Eusmilia</attributeName>
+          <attributeLabel>Eusmilia</attributeLabel>
+          <attributeDefinition>Density of Eusmilia juveniles surveyed.</attributeDefinition>
+          <storageType
+          typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeterPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+          id="juveniles_wide.Favia"
+            scope="document">
+          <attributeName>Favia</attributeName>
+          <attributeLabel>Favia</attributeLabel>
+          <attributeDefinition>Density of Favia juveniles surveyed.</attributeDefinition>
+          <storageType
+          typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeterPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+          id="juveniles_wide.Helioseris"
+            scope="document">
+          <attributeName>Helioseris</attributeName>
+          <attributeLabel>Helioseris</attributeLabel>
+          <attributeDefinition>Density of Helioseris juveniles surveyed.</attributeDefinition>
+          <storageType
+          typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeterPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+          id="juveniles_wide.Isophyllastrea"
+            scope="document">
+          <attributeName>Isophyllastrea</attributeName>
+          <attributeLabel>Isophyllastrea</attributeLabel>
+          <attributeDefinition>Density of Isophyllastrea juveniles surveyed.</attributeDefinition>
+          <storageType
+          typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeterPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+          id="juveniles_wide.Madracis"
+            scope="document">
+          <attributeName>Madracis</attributeName>
+          <attributeLabel>Madracis</attributeLabel>
+          <attributeDefinition>Density of Madracis juveniles surveyed.</attributeDefinition>
+          <storageType
+          typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeterPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+          id="juveniles_wide.Manicina"
+            scope="document">
+          <attributeName>Manicina</attributeName>
+          <attributeLabel>Manicina</attributeLabel>
+          <attributeDefinition>Density of Manicina juveniles surveyed.</attributeDefinition>
+          <storageType
+          typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeterPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+          id="juveniles_wide.Meandrina"
+            scope="document">
+          <attributeName>Meandrina</attributeName>
+          <attributeLabel>Meandrina</attributeLabel>
+          <attributeDefinition>Density of Meandrina juveniles surveyed.</attributeDefinition>
+          <storageType
+          typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeterPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+          id="juveniles_wide.Montastraea"
+            scope="document">
+          <attributeName>Montastraea</attributeName>
+          <attributeLabel>Montastraea</attributeLabel>
+          <attributeDefinition>Density of Montastraea juveniles surveyed.</attributeDefinition>
+          <storageType
+          typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeterPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+          id="juveniles_wide.Mycetophyllia"
+            scope="document">
+          <attributeName>Mycetophyllia</attributeName>
+          <attributeLabel>Mycetophyllia</attributeLabel>
+          <attributeDefinition>Density of Mycetophyllia juveniles surveyed.</attributeDefinition>
+          <storageType
+          typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeterPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+          id="juveniles_wide.Porites"
+            scope="document">
+          <attributeName>Porites</attributeName>
+          <attributeLabel>Porites</attributeLabel>
+          <attributeDefinition>Density of Porites juveniles surveyed.</attributeDefinition>
+          <storageType
+          typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeterPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+          id="juveniles_wide.Scolymia"
+            scope="document">
+          <attributeName>Scolymia</attributeName>
+          <attributeLabel>Scolymia</attributeLabel>
+          <attributeDefinition>Density of Scolymia juveniles surveyed.</attributeDefinition>
+          <storageType
+          typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeterPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+          id="juveniles_wide.Siderastrea"
+            scope="document">
+          <attributeName>Siderastrea</attributeName>
+          <attributeLabel>Siderastrea</attributeLabel>
+          <attributeDefinition>Density of Siderastrea juveniles surveyed.</attributeDefinition>
+          <storageType
+          typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeterPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute
+          id="juveniles_wide.Stephanocoenia"
+            scope="document">
+          <attributeName>Stephanocoenia</attributeName>
+          <attributeLabel>Stephanocoenia</attributeLabel>
+          <attributeDefinition>Density of Stephanocoenia juveniles surveyed.</attributeDefinition>
+          <storageType
+          typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeterPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>Data not reported, or collected in error.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="juveniles_wide.Orbicella"
+            scope="document">
+          <attributeName>Orbicella</attributeName>
+          <attributeLabel>Orbicella</attributeLabel>
+          <attributeDefinition>Density of Acropora juveniles surveyed.</attributeDefinition>
+          <storageType
+            typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeterPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>Data not reported, or collected in error.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <!--<attribute id="juveniles_wide.total" scope="document">
+                    <attributeName>total</attributeName>
+                    <attributeLabel>Total Density of Coral</attributeLabel>
+                    <attributeDefinition>Total density of colonies per 0.25m^2.</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>millimeterPerMeterSquared</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>nd</code>
+                        <codeExplanation>Data not reported, or collected in error.</codeExplanation>
+                    </missingValueCode>
+                </attribute>-->
+        <!--<attribute id="juveniles_wide.total_less_Sr_Ff" scope="document">
+                    <attributeName>total_less_Sr_Ff</attributeName>
+                    <attributeLabel>Total Except Siderastrea and Favia</attributeLabel>
+                    <attributeDefinition>All small colonies except Favia fragum and 
+                        Siderastrea radians that are sexually mature at less than 4 cm diameter 
+                        and therefore are not juveniles.</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>millimeterPerMeterSquared</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>integer</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>nd</code>
+                        <codeExplanation>Data not reported, or collected in error.</codeExplanation>
+                    </missingValueCode>
+                </attribute>-->
+      </attributeList>
+      <numberOfRecords>6160</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <stmml:unitList>
+          <stmml:unit
+            abbreviation="" id="dimensionless" name="dimensionless"
+            unitType="dimensionless">
+            <stmml:description>a designation asserting the absence of an associated unit</stmml:description>
+          </stmml:unit>
+          <stmml:unit
+            abbreviation="" id="percent" name="percent"
+            unitType="dimensionless">
+            <stmml:description>ratio of two quantities as percent composition (1:100)</stmml:description>
+          </stmml:unit>
+          <stmml:unit
+            abbreviation="mmM^-2" id="millimeterPerMeterSquared"
+            name="millimeterPerMeterSquared" unitType="">
+            <stmml:description>A measure of density</stmml:description>
+          </stmml:unit>
+        </stmml:unitList>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

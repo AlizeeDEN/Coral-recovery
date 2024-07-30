@@ -1,0 +1,6 @@
+Manifest file for edi.291.2-4c9184f37cff01bcdc32dc486ec36961.zip created on Thu Apr 22 12:53:11 MDT 2021
+CSUN_USVI_yawzi_tektite_20210401.csv (85845 bytes)
+CSUN_USVI_random_20210401.csv (877120 bytes)
+edi.291.2.xml (82223 bytes)
+edi.291.2.txt (19127 bytes)
+edi.291.2.report.xml (47925 bytes)

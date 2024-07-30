@@ -1,0 +1,5 @@
+Manifest file for edi.295.4-4c9184f37cff01bcdc32dc486ec36961.zip created on Thu Oct 21 09:29:40 MDT 2021
+CSUN_USVI_juveniles_wide_20210401.csv (366575 bytes)
+edi.295.4.xml (50242 bytes)
+edi.295.4.txt (14248 bytes)
+edi.295.4.report.xml (29241 bytes)

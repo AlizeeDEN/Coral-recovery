@@ -1,0 +1,622 @@
+Dataset title:  Virgin Islands National Park: Coral Reef: Population Dynamics: Scleractinian corals
+
+Dataset ID:  doi:10.6073/pasta/14b441bf4be6f116d717beceddb2c846
+Dataset Creator
+
+	Organization:	California State University Northridge
+	
+	Address:
+			Deptartment of Biology, California State University
+			18111 Nordhoff Street
+			Northridge, CA 91330-8303  USA
+	
+	URL:		http://mcr.lternet.edu/vinp/
+
+	Name:		Dr. Peter Edmunds
+	Position:	Principal Investigator
+	Organization:	California State University Northridge
+	
+	Address:
+			Deptartment of Biology, California State University
+			18111 Nordhoff Street
+			Northridge, CA 91330-8303  USA
+	
+	Phone:		+1(818)677-2502
+	Fax:		+1(818)677-2034
+	Email:		peter.edmunds@csun.edu
+	URL:		http://www.csun.edu/biology/faculty/edmunds.htm
+
+
+Dataset Abstract
+
+	These data are evidence of the the long-term dynamics of shallow coral reefs along
+				the south coast of St. John from as early as 1987. These data describe coral reef
+				community structure as percent cover based on the analysis of color photographs. All
+				of these data originate from color images of photoquadrats recorded annually
+				(usually in the summer) from as early as 1987. The data falls into three groups. The
+				two groups that are contained in this data package are (1) Tektite & Yawzi and
+				(2) Random sites. The juvenile coral density is packaged separately. 
+	 Tektite – this is at 14 m depth on the eastern side of Great Lameshur Bay and is
+				the original site of the Tektite man-in-the sea project in 1969; this project marked
+				the birth of the Virgin Islands Ecological Research Station (later the Virgin
+				Islands Environmental Resource Station) that hosts the field component of the
+				project. The reef in this location consists of a single buttress that has remained
+				dominated by Montastraea anularis since the start of the research (1987). These
+				surveys consist of 30 photoquadrats (1 x 1 m) distributed along three, 10 m
+				transects. 
+	 Yawzi – this is at 9 m depth and is on the western side of Great Lameshur Bay and
+				has been recorded photographically since 1987. This reef also started the study
+				period dominated by Montastraea annularis, but has degraded much more rapidly that
+				the Tektite site. These surveys consist of 30 photoquadrats (1 x 1 m) distributed
+				along three, 10 m transects. 
+	 Random sites – were added in 1992 to address the concern that the original sites
+				(Yawzi and Tektite) were selected on “good” areas of reef and, therefore, could only
+				decline in condition. The Random sites were selected using random coordinates in
+				1992, and consist of 6 sites (at 7-9 m depth) scattered between Cabritte Point and
+				White Point. All lie a little shoreward of Yawzi and Tektite, and have always been
+				characterized by low coral cover (< 10% cover). The surveys consist of 18-40
+				photoquadrats (0.5 x 0.5 m; with sample size determined by the exposures on a 35 mm
+				cassette versus digital techniques) that are placed at random points along a
+				transect. 
+
+
+Dataset Keywords
+
+	USVI
+	VINP
+	CSUN
+	US Virgin Islands National Park
+	St. John Island
+	Caribbean
+	California State University Northridge
+	NSF
+	Scleractinia
+	Scleractinian Coral
+	Community
+	Demographics
+	Corals
+	Populations
+	Carbonate rocks
+	Coral Reefs
+	Fringing Reefs
+	Shallow water
+	Marine environments
+	Polyps (organisms)
+	Ocean Acidification
+	Reef Resistance and Resilience
+	Population and Community Dynamics
+
+
+Intellectual Rights
+
+	These data were collected by the long-term coral reef dynamics research project in
+				the US Virgin Islands led by Dr. Peter Edmunds at California State University
+				Northridge (CSUN). Data collected under the auspices of research permits issued by
+				the US National Park Service are available to the public after primary publication,
+				or at most two years after the completion of the study unless proprietary
+				restrictions are warranted.
+	This data package is released under the Creative Commons license Attribution 
+							4.0 International (CC BY 4.0 , see https://creativecommons.org/licenses/by/4.0/).
+							This license states that consumers ("Data Users" herein) may distribute, adapt, 
+							reuse, remix, and build upon this work, as long as they give appropriate credit,
+							provide a link to the license, and indicate if changes were made. If redistributed,
+							a Data User may not apply additional restrictions or technological measures that
+							prevent access.
+	The Data User has an ethical obligation to cite the data source appropriately
+							in any publication or product that results from its use, and notify the data
+							contact or creator. Communication, collaboration, or co-authorship (as appropriate)
+							with the creators of this data package is encouraged to prevent duplicate research
+							or publication. The Data User is urged to contact the authors of these data if any
+							questions about methodology or results occur. The Data User should realize that
+							these data may be actively used by others for ongoing research and that coordination
+							may be necessary to prevent duplication or inappropriate use. The Data User should
+							realize that misinterpretation may occur if data are used outside of the context
+							of the original study. The Data User should be aware that data are updated 
+							periodically and it is the responsibility of the Data User to check for new versions
+							of the data.
+	While substantial efforts are made to ensure the accuracy of data and associated 
+							documentation, complete accuracy of data sets cannot be guaranteed. This data package
+							(with its components) is made available “as is” and with no warranty of accuracy or 
+							fitness for use. The creators of this data package and the repository where these data
+							were obtained shall not be liable for any damages resulting from misinterpretation, 
+							use or misuse of the data package or its components.
+
+
+Geographic Coverage
+
+
+	Bounding Coordinates
+
+		Geographic description:	St. John, US Virgin Islands
+		West bounding coordinate:	-64.73
+		East bounding coordinate:	-64.72
+		North bounding coordinate:	18.317
+		South bounding coordinate:	18.307
+	
+		Geographic description:	Yawzi (long term photoquadrats)
+		West bounding coordinate:	-64.72551007
+		East bounding coordinate:	-64.72551007
+		North bounding coordinate:	18.31506678
+		South bounding coordinate:	18.31506678
+	
+		Geographic description:	Tektite (long term photoquadrats)
+		West bounding coordinate:	-64.72321746
+		East bounding coordinate:	-64.72321746
+		North bounding coordinate:	18.30996508
+		South bounding coordinate:	18.30996508
+	
+		Geographic description:	Cabritte Horn (Random Site)
+		West bounding coordinate:	-64.72164419
+		East bounding coordinate:	-64.72164419
+		North bounding coordinate:	18.30713526
+		South bounding coordinate:	18.30713526
+	
+		Geographic description:	East Tektite (Random Site)
+		West bounding coordinate:	-64.72181924
+		East bounding coordinate:	-64.72181924
+		North bounding coordinate:	18.31095579
+		South bounding coordinate:	18.31095579
+	
+		Geographic description:	Europa (Random Site)
+		West bounding coordinate:	-64.72998517
+		East bounding coordinate:	-64.72998517
+		North bounding coordinate:	18.31673677
+		South bounding coordinate:	18.31673677
+	
+		Geographic description:	Neptune's Table (Random Site)
+		West bounding coordinate:	-64.72301093
+		East bounding coordinate:	-64.72301093
+		North bounding coordinate:	18.3125466
+		South bounding coordinate:	18.3125466
+	
+		Geographic description:	West Little Lamshur Bay (Random Site)
+		West bounding coordinate:	-64.72779501
+		East bounding coordinate:	-64.72779501
+		North bounding coordinate:	18.31725847
+		South bounding coordinate:	18.31725847
+	
+		Geographic description:	White Point (Random Site)
+		West bounding coordinate:	-64.73130735
+		East bounding coordinate:	-64.73130735
+		North bounding coordinate:	18.31445176
+		South bounding coordinate:	18.31445176
+	
+
+
+
+Temporal Coverage
+
+	Start Date:  1987-12-01
+	End Date:  2020-08-02
+
+Maintenance
+
+	This is an ongoing dataset. Data are collected annually.
+
+
+Dataset Contact
+
+	Name:		Hannah Ake
+	Position:	Information Manager
+	Email:		ake.hannah@gmail.com
+	URL:		http://coralreefs.csun.edu/
+
+
+Methods
+
+
+
+	Method Step 
+
+		Description 
+
+
+
+	Method Step 
+
+		Description 
+
+
+
+	Method Step 
+
+		Description 
+
+
+
+		Protocol 
+
+			Protocol Title:  Coral Point Count with Excel extensions (CPCe)
+
+			Protocol Creator(s)
+
+				Organization:	Kevin E. Kohler
+
+
+
+
+Data Table
+
+	Entity Name:  Percent Cover at Tektite and Yawzi
+	Entity Description:  Percent cover of coral in photoquadrats recorded at Tektite and Yawzi.
+	Object Name:  CSUN_USVI_yawzi_tektite_20210401.csv
+
+
+
+Data Format
+
+	Number of Header Lines:  1
+	Attribute Orientation:  column
+	Field Delimiter:  ,
+	Number of Records:  2223
+
+
+
+Attributes
+
+	Attribute Name:  date
+	Attribute Label:  Date
+	Attribute Definition:  Date that quadrat was photographed or videotaped.
+	Storage Type:  string
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  site
+	Attribute Label:  Site
+	Attribute Definition:  Location of quadrat that was photographed or videotaped.
+	Storage Type:  string
+	Measurement Scale: 
+		Tektite= Site is Tektite
+		Yawzi= Site is Yawzi
+	Missing Value Code: 
+
+
+	Attribute Name:  transect
+	Attribute Label:  Transect
+	Attribute Definition:  Transect number
+	Storage Type:  integer
+	Measurement Scale: 
+		Units:		dimensionless
+		Number Type:  integer
+	Missing Value Code: nd  (No data)
+
+
+	Attribute Name:  quadrat
+	Attribute Label:  Quadrat
+	Attribute Definition:  Quadrat number
+	Storage Type:  string
+	Measurement Scale: 
+		Transect number (T) and quadrat number (Q).
+	Missing Value Code: 
+
+
+	Attribute Name:  percentCover_allCoral
+	Attribute Label:  All Coral Percent Coverage
+	Attribute Definition:  Summed cover of all scleractinians.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  percentCover_macroalgae
+	Attribute Label:  Macroalgae Percent Coverage
+	Attribute Definition:  Summed cover of macroalgae inlcuding Dictyota, Halimedia, Lobophora.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  percentCover_CTB
+	Attribute Label:  CTB Percent Coverage
+	Attribute Definition:  Combined category of crustose coralline algae, bare space and algal turf.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  site
+	Attribute Label:  Site
+	Attribute Definition:  Location of the quadrat that was photographed or videotaped. Random site.
+	Storage Type:  string
+	Measurement Scale: 
+		Cabritte Horn= Site is Cabritte Horn
+		East Tektite= Site is East Tektite
+		Europa Bay= Site is Europa
+		Neptunes Table= Site is Neptune's Table
+		West Little Lameshur= Site is West Little Lameshur Bay
+		White Point= Site is White Point
+	Missing Value Code: 
+
+
+	Attribute Name:  quadrat
+	Attribute Label:  Quadrat
+	Attribute Definition:  Random quadrat on which photograph was taken. Changes every year.
+	Storage Type:  integer
+	Measurement Scale: 
+		Units:		dimensionless
+		Number Type:  whole
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  year
+	Attribute Label:  Year
+	Attribute Definition:  Nominal year that quadrat was photographed or videotaped.
+	Storage Type:  string
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  percentCover_all
+	Attribute Label:  Percent Cover - All species
+	Attribute Definition:  Summed cover of all species
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  percentCover_macroalgae
+	Attribute Label:  Percent Cover - Macroalgae
+	Attribute Definition:  Summed cover of all macroalgae.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  percentCover_CTB
+	Attribute Label:  Percent Cover - CTB
+	Attribute Definition:  Summed cover of all CTB.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  Orbicella
+	Attribute Label:  Orbicella - Percent Cover
+	Attribute Definition:  Summed cover of all Orbicella
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  Montastrea_cavernosa
+	Attribute Label:  Montastrea cavernosa - Percent Cover
+	Attribute Definition:  Summed cover of all Montastrea cavernosa
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  Agaricia
+	Attribute Label:  Agaricia - Percent Cover
+	Attribute Definition:  Summed cover of all Agaricia
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  Colpophyllia
+	Attribute Label:  Colpophyllia - Percent Cover
+	Attribute Definition:  Summed cover of all Colpophyllia
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  Dendrogyra
+	Attribute Label:  Dendrogyra - Percent Cover
+	Attribute Definition:  Summed cover of all Dendrogyra
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  Dichocoenia
+	Attribute Label:  Dichocoenia - Percent Cover
+	Attribute Definition:  Summed cover of all Dichocoenia
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  Diploria
+	Attribute Label:  Diploria - Percent Cover
+	Attribute Definition:  Summed cover of all Diploria
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  Eusmilia
+	Attribute Label:  Eusmilia - Percent Cover
+	Attribute Definition:  Summed cover of all Eusmilia
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  Favia
+	Attribute Label:  Favia - Percent Cover
+	Attribute Definition:  Summed cover of all Favia
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  Madracis
+	Attribute Label:  Madracis - Percent Cover
+	Attribute Definition:  Summed cover of all Madracis
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  Meandrina
+	Attribute Label:  Meandrina - Percent Cover
+	Attribute Definition:  Summed cover of all Meandrina
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  Mussa
+	Attribute Label:  Mussa - Percent Cover
+	Attribute Definition:  Summed cover of all Mussa
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  Porites
+	Attribute Label:  Porites - Percent Cover
+	Attribute Definition:  Summed cover of all Porites
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  Stephanocoenia
+	Attribute Label:  Stephanocoenia - Percent Cover
+	Attribute Definition:  Summed cover of all Stephanocoenia
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  Siderastrea
+	Attribute Label:  Siderastrea - Percent Cover
+	Attribute Definition:  Summed cover of all Siderastrea
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  Manicina
+	Attribute Label:  Manicina - Percent Cover
+	Attribute Definition:  Summed cover of all Manicina
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  Mycetopohyllia
+	Attribute Label:  Mycetopohyllia - Percent Cover
+	Attribute Definition:  Summed cover of all Mycetopohyllia
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  Acropora
+	Attribute Label:  Acropora - Percent Cover
+	Attribute Definition:  Summed cover of all Acropora
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  Isophyllia
+	Attribute Label:  Isophyllia - Percent Cover
+	Attribute Definition:  Summed cover of all Isophyllastrea
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  Scolymia
+	Attribute Label:  Scolymia - Percent Cover
+	Attribute Definition:  Summed cover of all Scolymia
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+
+	Attribute Name:  Millepora
+	Attribute Label:  Millepora - Percent Cover
+	Attribute Definition:  Summed cover of all Millepora
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		percent
+		Precision:  2
+		Number Type:  real
+	Missing Value Code: nd  (No data, or data disregarded.)
+
+

@@ -1,0 +1,437 @@
+Dataset title:  Virgin Islands National Park: Coral Reef: Juvenile Coral
+
+Dataset ID:  doi:10.6073/pasta/ace744f7d9bfdfb012e71c93c1ad0c53
+Dataset Creator
+
+	Organization:	California State University Northridge
+	
+	Address:
+			Deptartment of Biology, California State University
+			18111 Nordhoff Street
+			Northridge, CA 91330-8303  USA
+	
+	URL:		http://mcr.lternet.edu/vinp/
+
+	Name:		Dr. Peter Edmunds
+	Position:	Principal Investigator
+	Organization:	California State University Northridge
+	
+	Address:
+			Deptartment of Biology, California State University
+			18111 Nordhoff Street
+			Northridge, CA 91330-8303  USA
+	
+	Phone:		+1(818)677-2502
+	Fax:		+1(818)677-2034
+	Email:		peter.edmunds@csun.edu
+	URL:		http://www.csun.edu/biology/faculty/edmunds.htm
+
+
+Dataset Abstract
+
+	Coral larvae are selective with regards to the surfaces
+                upon which they settle, but little is known about the outcome of these choices. In
+                this study, we explored the implications for juvenile scleractinians (less than
+                40-mm diameter) of growing on igneous versus carbonate rock on the shallow reefs
+                (5-m depth) of St. John, US Virgin Islands. Surveys revealed that juvenile corals
+                occurred at densities of 16 colonies m− 2 and were distributed on igneous and
+                carbonate rocks in proportion to the abundance of these surfaces, suggesting that
+                larvae do not discriminate between rock types at settlement. Repeated surveys
+                demonstrated that all juvenile corals (i.e., pooled among taxa) grew 41% slower on
+                igneous versus carbonate rock between January and August, but not between August and
+                January when the growth was statistically indistinguishable between rock types.
+                Although the growth of the most common juvenile coral, Porites astreoides, was
+                similar on both substrata, the photophysiology of this species was affected by the
+                type of rock. The maximum relative electron transfer rate (rETR, a proxy for
+                photosynthesis) of P. astreoides was down-regulated 30% on igneous compared to
+                carbonate rock. Phylogenetic analyses of the Symbiodinium community sequence
+                profiles within P. astreoides revealed significant differences between substrata,
+                with a greater diversity of co-occurring ITS-2 sequences in corals growing on
+                carbonate compared to igneous rock. While substratum-dependent patterns in the
+                characteristics of juvenile corals suggested there is selective value to the
+                settlement choices made by larvae, these trends did not translate into differences
+                in survival, at least over the time scale investigated. It remains uncertain what
+                features of the rocks affected coral performance, but differences in the temperature
+                of the rock may be an important feature during the warmest period of the
+                year.
+
+
+Dataset Keywords
+
+	USVI
+	VINP
+	LTREB
+	CSUN
+	US Virgin Islands National Park
+	St. John Island
+	Caribbean
+	California State University Northridge
+	NSF
+	Scleractinia
+	Scleractinian Coral
+	Community
+	Demographics
+	Corals
+	Populations
+	Carbonate rocks
+	Coral Reefs
+	Fringing Reefs
+	Shallow water
+	Marine environments
+	Polyps (organisms)
+	larvae
+	communities
+	community dynamics
+	Ocean Acidification
+	Reef Resistance and Resilience
+	Population and Community Dynamics
+
+
+Intellectual Rights
+
+	These data were collected by the long-term coral reef dynamics research project in
+                the US Virgin Islands led by Dr. Peter Edmunds at California State University
+                Northridge (CSUN). Data collected under the auspices of research permits issued by
+                the US National Park Service are available to the public after primary publication,
+                or at most two years after the completion of the study unless proprietary
+                restrictions are warranted.
+	This data package is released under the Creative Commons license Attribution 
+                4.0 International (CC BY 4.0 , see https://creativecommons.org/licenses/by/4.0/).
+                This license states that consumers ("Data Users" herein) may distribute, adapt, 
+                reuse, remix, and build upon this work, as long as they give appropriate credit,
+                provide a link to the license, and indicate if changes were made. If redistributed,
+                a Data User may not apply additional restrictions or technological measures that
+                prevent access.
+	The Data User has an ethical obligation to cite the data source appropriately
+                in any publication or product that results from its use, and notify the data
+                contact or creator. Communication, collaboration, or co-authorship (as appropriate)
+                with the creators of this data package is encouraged to prevent duplicate research
+                or publication. The Data User is urged to contact the authors of these data if any
+                questions about methodology or results occur. The Data User should realize that
+                these data may be actively used by others for ongoing research and that coordination
+                may be necessary to prevent duplication or inappropriate use. The Data User should
+                realize that misinterpretation may occur if data are used outside of the context
+                of the original study. The Data User should be aware that data are updated 
+                periodically and it is the responsibility of the Data User to check for new versions
+                of the data.
+	While substantial efforts are made to ensure the accuracy of data and associated 
+                documentation, complete accuracy of data sets cannot be guaranteed. This data package
+                (with its components) is made available “as is” and with no warranty of accuracy or 
+                fitness for use. The creators of this data package and the repository where these data
+                were obtained shall not be liable for any damages resulting from misinterpretation, 
+                use or misuse of the data package or its components.
+
+
+Geographic Coverage
+
+
+	Bounding Coordinates
+
+		Geographic description:	St. John, US Virgin Islands
+		West bounding coordinate:	-64.73
+		East bounding coordinate:	-64.72
+		North bounding coordinate:	18.317
+		South bounding coordinate:	18.307
+	
+		Geographic description:	Yawzi
+		West bounding coordinate:	-64.72551007
+		East bounding coordinate:	-64.72551007
+		North bounding coordinate:	18.31506678
+		South bounding coordinate:	18.31506678
+	
+		Geographic description:	Tektite
+		West bounding coordinate:	-64.72321746
+		East bounding coordinate:	-64.72321746
+		North bounding coordinate:	18.30996508
+		South bounding coordinate:	18.30996508
+	
+		Geographic description:	Cabritte Horn
+		West bounding coordinate:	-64.72164419
+		East bounding coordinate:	-64.72164419
+		North bounding coordinate:	18.30713526
+		South bounding coordinate:	18.30713526
+	
+		Geographic description:	White Point
+		West bounding coordinate:	-64.73130735
+		East bounding coordinate:	-64.73130735
+		North bounding coordinate:	18.31445176
+		South bounding coordinate:	18.31445176
+	
+		Geographic description:	Donkey Bite
+		West bounding coordinate:	-64.72150338
+		East bounding coordinate:	-64.72150338
+		North bounding coordinate:	18.31588114
+		South bounding coordinate:	18.31588114
+	
+
+
+
+Temporal Coverage
+
+	Start Date:  1994-01-10
+	End Date:  2020-07-01
+
+Maintenance
+
+	This is an ongoing dataset. Data are collected annually.
+
+
+Dataset Contact
+
+	Name:		Hannah Ake
+	Position:	Information Manager
+	Phone:		510.205.2018
+	Email:		ake.hannah@gmail.com
+
+
+Methods
+
+
+
+	Method Step 
+
+		Description 
+
+
+
+Data Table
+
+	Entity Name:  Juvenile Coral Density
+	Entity Description:  Density of juvenile corals. These data are from 5-9 m depth and describe the density 
+                of small corals ≤ 40 mm diameter.
+	Object Name:  CSUN_USVI_juveniles_wide_20210401.csv
+
+
+
+Data Format
+
+	Number of Header Lines:  1
+	Attribute Orientation:  column
+	Field Delimiter:  ,
+	Number of Records:  6160
+
+
+
+Attributes
+
+	Attribute Name:  site
+	Attribute Label:  Site
+	Attribute Definition:  Site where juvenile corals were sampled.
+	Storage Type:  string
+	Measurement Scale: 
+		Cabritte= Site is Cabritte
+		Donkey Bite= Site is Donkey Bite
+		Tektite East= Site is Tektite East
+		Tektite West= Site is Tektite West
+		Yawzi= Site is Yawzi
+	Missing Value Code: 
+
+
+	Attribute Name:  quadrat
+	Attribute Label:  Quadrat
+	Attribute Definition:  Unique quadrat where corals were censused.
+	Storage Type:  integer
+	Measurement Scale: 
+		Units:  dimensionless
+		Number Type:  integer
+	Missing Value Code: 
+
+
+	Attribute Name:  year
+	Attribute Label:  Year
+	Attribute Definition:  Year of survey.
+	Storage Type:  integer
+	Measurement Scale: 
+	Missing Value Code: 
+
+
+	Attribute Name:  Acropora
+	Attribute Label:  Acropora
+	Attribute Definition:  Density of Acropora juveniles surveyed.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		millimeterPerMeterSquared
+		Number Type:  integer
+	Missing Value Code: 
+
+
+	Attribute Name:  Agaricia
+	Attribute Label:  Agaricia
+	Attribute Definition:  Density of Agaricia juveniles surveyed.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		millimeterPerMeterSquared
+		Number Type:  integer
+	Missing Value Code: 
+
+
+	Attribute Name:  Colpohyllia
+	Attribute Label:  Colpohyllia
+	Attribute Definition:  Density of Colpohyllia juveniles surveyed.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		millimeterPerMeterSquared
+		Number Type:  integer
+	Missing Value Code: 
+
+
+	Attribute Name:  Dichocoenia
+	Attribute Label:  Dichocoenia
+	Attribute Definition:  Density of Dichocoenia juveniles surveyed.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		millimeterPerMeterSquared
+		Number Type:  integer
+	Missing Value Code: 
+
+
+	Attribute Name:  Diplora
+	Attribute Label:  Diplora
+	Attribute Definition:  Density of Diplora juveniles surveyed.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		millimeterPerMeterSquared
+		Number Type:  integer
+	Missing Value Code: 
+
+
+	Attribute Name:  Eusmilia
+	Attribute Label:  Eusmilia
+	Attribute Definition:  Density of Eusmilia juveniles surveyed.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		millimeterPerMeterSquared
+		Number Type:  integer
+	Missing Value Code: 
+
+
+	Attribute Name:  Favia
+	Attribute Label:  Favia
+	Attribute Definition:  Density of Favia juveniles surveyed.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		millimeterPerMeterSquared
+		Number Type:  integer
+	Missing Value Code: 
+
+
+	Attribute Name:  Helioseris
+	Attribute Label:  Helioseris
+	Attribute Definition:  Density of Helioseris juveniles surveyed.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		millimeterPerMeterSquared
+		Number Type:  integer
+	Missing Value Code: 
+
+
+	Attribute Name:  Isophyllastrea
+	Attribute Label:  Isophyllastrea
+	Attribute Definition:  Density of Isophyllastrea juveniles surveyed.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		millimeterPerMeterSquared
+		Number Type:  integer
+	Missing Value Code: 
+
+
+	Attribute Name:  Madracis
+	Attribute Label:  Madracis
+	Attribute Definition:  Density of Madracis juveniles surveyed.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		millimeterPerMeterSquared
+		Number Type:  integer
+	Missing Value Code: 
+
+
+	Attribute Name:  Manicina
+	Attribute Label:  Manicina
+	Attribute Definition:  Density of Manicina juveniles surveyed.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		millimeterPerMeterSquared
+		Number Type:  integer
+	Missing Value Code: 
+
+
+	Attribute Name:  Meandrina
+	Attribute Label:  Meandrina
+	Attribute Definition:  Density of Meandrina juveniles surveyed.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		millimeterPerMeterSquared
+		Number Type:  integer
+	Missing Value Code: 
+
+
+	Attribute Name:  Montastraea
+	Attribute Label:  Montastraea
+	Attribute Definition:  Density of Montastraea juveniles surveyed.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		millimeterPerMeterSquared
+		Number Type:  integer
+	Missing Value Code: 
+
+
+	Attribute Name:  Mycetophyllia
+	Attribute Label:  Mycetophyllia
+	Attribute Definition:  Density of Mycetophyllia juveniles surveyed.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		millimeterPerMeterSquared
+		Number Type:  integer
+	Missing Value Code: 
+
+
+	Attribute Name:  Porites
+	Attribute Label:  Porites
+	Attribute Definition:  Density of Porites juveniles surveyed.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		millimeterPerMeterSquared
+		Number Type:  integer
+	Missing Value Code: 
+
+
+	Attribute Name:  Scolymia
+	Attribute Label:  Scolymia
+	Attribute Definition:  Density of Scolymia juveniles surveyed.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		millimeterPerMeterSquared
+		Number Type:  integer
+	Missing Value Code: 
+
+
+	Attribute Name:  Siderastrea
+	Attribute Label:  Siderastrea
+	Attribute Definition:  Density of Siderastrea juveniles surveyed.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		millimeterPerMeterSquared
+		Number Type:  integer
+	Missing Value Code: 
+
+
+	Attribute Name:  Stephanocoenia
+	Attribute Label:  Stephanocoenia
+	Attribute Definition:  Density of Stephanocoenia juveniles surveyed.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		millimeterPerMeterSquared
+		Number Type:  integer
+	Missing Value Code: nd  (Data not reported, or collected in error.)
+
+
+	Attribute Name:  Orbicella
+	Attribute Label:  Orbicella
+	Attribute Definition:  Density of Acropora juveniles surveyed.
+	Storage Type:  float
+	Measurement Scale: 
+		Units:		millimeterPerMeterSquared
+		Number Type:  integer
+	Missing Value Code: nd  (Data not reported, or collected in error.)
+
+

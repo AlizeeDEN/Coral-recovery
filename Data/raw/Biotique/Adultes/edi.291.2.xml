@@ -1,0 +1,1888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="edi.291.2" scope="system"
+  system="https://pasta.edirepository.org"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd  http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+  <access
+    authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document"
+    system="https://pasta.edirepository.org">
+    <allow><principal>uid=EDI,o=EDI,dc=edirepository,dc=org</principal><permission>all</permission></allow><allow>
+      <principal>uid=pedmunds,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <!-- LTREB USVI IM account -->
+      <principal>uid=ltrebusvi,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset
+      scope="document">
+    <alternateIdentifier
+      system="https://doi.org">doi:10.6073/pasta/14b441bf4be6f116d717beceddb2c846</alternateIdentifier><shortName>Virgin Islands National Park: Population Dynamics of Scleractinian Corals</shortName>
+    <title>Virgin Islands National Park: Coral Reef: Population Dynamics: Scleractinian corals</title>
+    <creator
+      id="csun"
+        scope="document">
+      <organizationName>California State University Northridge</organizationName>
+      <address
+      scope="document">
+        <deliveryPoint>Deptartment of Biology, California State University</deliveryPoint>
+        <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+        <city>Northridge</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>91330-8303</postalCode>
+        <country>USA</country>
+      </address>
+      <onlineUrl>http://mcr.lternet.edu/vinp/</onlineUrl>
+    </creator>
+    <creator
+      id="peteEdmunds"
+        scope="document">
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Peter</givenName>
+        <surName>Edmunds</surName>
+      </individualName>
+      <organizationName>California State University Northridge</organizationName>
+      <positionName>Principal Investigator</positionName>
+      <address
+        scope="document">
+        <deliveryPoint>Deptartment of Biology, California State University</deliveryPoint>
+        <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+        <city>Northridge</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>91330-8303</postalCode>
+        <country>USA</country>
+      </address>
+      <phone
+        phonetype="voice">+1(818)677-2502</phone>
+      <phone
+        phonetype="fax">+1(818)677-2034</phone>
+      <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+      <onlineUrl>http://www.csun.edu/biology/faculty/edmunds.htm</onlineUrl>
+    </creator>
+    <pubDate>2021-04-01</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>These data are evidence of the the long-term dynamics of shallow coral reefs along
+				the south coast of St. John from as early as 1987. These data describe coral reef
+				community structure as percent cover based on the analysis of color photographs. All
+				of these data originate from color images of photoquadrats recorded annually
+				(usually in the summer) from as early as 1987. The data falls into three groups. The
+				two groups that are contained in this data package are (1) Tektite &amp; Yawzi and
+				(2) Random sites. The juvenile coral density is packaged separately. </para>
+      <para> Tektite – this is at 14 m depth on the eastern side of Great Lameshur Bay and is
+				the original site of the Tektite man-in-the sea project in 1969; this project marked
+				the birth of the Virgin Islands Ecological Research Station (later the Virgin
+				Islands Environmental Resource Station) that hosts the field component of the
+				project. The reef in this location consists of a single buttress that has remained
+				dominated by Montastraea anularis since the start of the research (1987). These
+				surveys consist of 30 photoquadrats (1 x 1 m) distributed along three, 10 m
+				transects. </para>
+      <para> Yawzi – this is at 9 m depth and is on the western side of Great Lameshur Bay and
+				has been recorded photographically since 1987. This reef also started the study
+				period dominated by Montastraea annularis, but has degraded much more rapidly that
+				the Tektite site. These surveys consist of 30 photoquadrats (1 x 1 m) distributed
+				along three, 10 m transects. </para>
+      <para> Random sites – were added in 1992 to address the concern that the original sites
+				(Yawzi and Tektite) were selected on “good” areas of reef and, therefore, could only
+				decline in condition. The Random sites were selected using random coordinates in
+				1992, and consist of 6 sites (at 7-9 m depth) scattered between Cabritte Point and
+				White Point. All lie a little shoreward of Yawzi and Tektite, and have always been
+				characterized by low coral cover (&lt; 10% cover). The surveys consist of 18-40
+				photoquadrats (0.5 x 0.5 m; with sample size determined by the exposures on a 35 mm
+				cassette versus digital techniques) that are placed at random points along a
+				transect. </para>
+    </abstract>
+    <keywordSet>
+      <keyword
+        keywordType="theme">USVI</keyword>
+      <keyword
+        keywordType="theme">VINP</keyword>
+      <keyword
+        keywordType="theme">CSUN</keyword>
+      <keyword
+        keywordType="place">US Virgin Islands National Park</keyword>
+      <keyword
+        keywordType="place">St. John Island</keyword>
+      <keyword
+        keywordType="place">Caribbean</keyword>
+      <keyword
+        keywordType="theme">California State University Northridge</keyword>
+      <keyword
+        keywordType="theme">NSF</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword
+        keywordType="taxonomic">Scleractinia</keyword>
+      <keyword
+        keywordType="taxonomic">Scleractinian Coral</keyword>
+      <keyword
+        keywordType="theme">Community</keyword>
+      <keyword
+        keywordType="theme">Demographics</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword
+        keywordType="theme">Corals</keyword>
+      <keyword
+        keywordType="theme">Populations</keyword>
+      <keyword
+        keywordType="theme">Carbonate rocks</keyword>
+      <keyword
+        keywordType="theme">Coral Reefs</keyword>
+      <keyword
+        keywordType="theme">Fringing Reefs</keyword>
+      <keyword
+        keywordType="theme">Shallow water</keyword>
+      <keyword
+        keywordType="theme">Marine environments</keyword>
+      <keyword
+        keywordType="theme">Polyps (organisms)</keyword>
+      <keywordThesaurus>NBII Biocomplexity Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword
+        keywordType="theme">Ocean Acidification</keyword>
+      <keyword
+        keywordType="theme">Reef Resistance and Resilience</keyword>
+      <keyword
+      keywordType="theme">Population and Community Dynamics</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>These data were collected by the long-term coral reef dynamics research project in
+				the US Virgin Islands led by Dr. Peter Edmunds at California State University
+				Northridge (CSUN). Data collected under the auspices of research permits issued by
+				the US National Park Service are available to the public after primary publication,
+				or at most two years after the completion of the study unless proprietary
+				restrictions are warranted.</para>
+      <para>This data package is released under the Creative Commons license Attribution 
+							4.0 International (CC BY 4.0 , see https://creativecommons.org/licenses/by/4.0/).
+							This license states that consumers ("Data Users" herein) may distribute, adapt, 
+							reuse, remix, and build upon this work, as long as they give appropriate credit,
+							provide a link to the license, and indicate if changes were made. If redistributed,
+							a Data User may not apply additional restrictions or technological measures that
+							prevent access.</para>
+      <para>The Data User has an ethical obligation to cite the data source appropriately
+							in any publication or product that results from its use, and notify the data
+							contact or creator. Communication, collaboration, or co-authorship (as appropriate)
+							with the creators of this data package is encouraged to prevent duplicate research
+							or publication. The Data User is urged to contact the authors of these data if any
+							questions about methodology or results occur. The Data User should realize that
+							these data may be actively used by others for ongoing research and that coordination
+							may be necessary to prevent duplication or inappropriate use. The Data User should
+							realize that misinterpretation may occur if data are used outside of the context
+							of the original study. The Data User should be aware that data are updated 
+							periodically and it is the responsibility of the Data User to check for new versions
+							of the data.</para>
+      <para>While substantial efforts are made to ensure the accuracy of data and associated 
+							documentation, complete accuracy of data sets cannot be guaranteed. This data package
+							(with its components) is made available “as is” and with no warranty of accuracy or 
+							fitness for use. The creators of this data package and the repository where these data
+							were obtained shall not be liable for any damages resulting from misinterpretation, 
+							use or misuse of the data package or its components.</para>
+    </intellectualRights>
+    <coverage
+        scope="document">
+      <geographicCoverage
+        scope="document">
+        <geographicDescription>St. John, US Virgin Islands</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-64.73</westBoundingCoordinate>
+          <eastBoundingCoordinate>-64.72</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.317</northBoundingCoordinate>
+          <southBoundingCoordinate>18.307</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage
+        id="Yawzi longterm">
+        <geographicDescription>Yawzi (long term photoquadrats)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-64.72551007</westBoundingCoordinate>
+          <eastBoundingCoordinate>-64.72551007</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.31506678</northBoundingCoordinate>
+          <southBoundingCoordinate>18.31506678</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage
+        id="Tektite longterm">
+        <geographicDescription>Tektite (long term photoquadrats)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-64.72321746</westBoundingCoordinate>
+          <eastBoundingCoordinate>-64.72321746</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.30996508</northBoundingCoordinate>
+          <southBoundingCoordinate>18.30996508</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage
+        id="Cabritte Horn Random">
+        <geographicDescription>Cabritte Horn (Random Site)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-64.72164419</westBoundingCoordinate>
+          <eastBoundingCoordinate>-64.72164419</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.30713526</northBoundingCoordinate>
+          <southBoundingCoordinate>18.30713526</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage
+        id="East Tektite Random">
+        <geographicDescription>East Tektite (Random Site)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-64.72181924</westBoundingCoordinate>
+          <eastBoundingCoordinate>-64.72181924</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.31095579</northBoundingCoordinate>
+          <southBoundingCoordinate>18.31095579</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage
+        id="Europa Random">
+        <geographicDescription>Europa (Random Site)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-64.72998517</westBoundingCoordinate>
+          <eastBoundingCoordinate>-64.72998517</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.31673677</northBoundingCoordinate>
+          <southBoundingCoordinate>18.31673677</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage
+        id="Neptune's Table Random">
+        <geographicDescription>Neptune's Table (Random Site)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-64.72301093</westBoundingCoordinate>
+          <eastBoundingCoordinate>-64.72301093</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.3125466</northBoundingCoordinate>
+          <southBoundingCoordinate>18.3125466</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage
+        id="West Little Lamshur Bay Random">
+        <geographicDescription>West Little Lamshur Bay (Random Site)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-64.72779501</westBoundingCoordinate>
+          <eastBoundingCoordinate>-64.72779501</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.31725847</northBoundingCoordinate>
+          <southBoundingCoordinate>18.31725847</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage
+        id="White Point Random">
+        <geographicDescription>White Point (Random Site)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-64.73130735</westBoundingCoordinate>
+          <eastBoundingCoordinate>-64.73130735</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.31445176</northBoundingCoordinate>
+          <southBoundingCoordinate>18.31445176</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage
+      scope="document">
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1987-12-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2020-08-02</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <!-- Updated Montestrea taxonomy per Budd, et al., 2012 see methods -->
+        <taxonomicClassification>
+          <taxonRankName>Phylum</taxonRankName>
+          <taxonRankValue>Cnidaria</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Class</taxonRankName>
+            <taxonRankValue>Anthozoa</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Order</taxonRankName>
+              <taxonRankValue>Scleractinia</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Acroporidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Acropora</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Siderastreidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Siderastrea</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Astrocoeniidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Stephanocoenia</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Poritidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Porites</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Pocilloporidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Madracis</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Agariciidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Agaricia</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Mussidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Mycetophyllia</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Mussa</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Isophyllastrea</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Scolymia</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Faviidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Solenastrea</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Favia</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Colpophyllia</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Manicina</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Diploria</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Montastraeidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Montastrea</taxonRankValue>
+                  <!-- (cavernosa) -->
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Merulinidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Orbicella</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Meandrinidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Meandrina</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Dichocoenia</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Dendrogyra</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Eusmilia</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Plantae</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Division</taxonRankName>
+            <taxonRankValue>Rhodophyta</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Class</taxonRankName>
+              <taxonRankValue>Rhodophyceae</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>Subclass</taxonRankName>
+                <taxonRankValue>Florideophycidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Order</taxonRankName>
+                  <taxonRankValue>Corallinales</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Corallinaceae</taxonRankValue>
+                    <taxonomicClassification>
+                      <commonName>Crustose Coraline Algae</commonName>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Order</taxonRankName>
+                  <taxonRankValue>Nemaliales</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Helminthocladiaceae</taxonRankValue>
+                    <!--<taxonRankValue>Liagoraceae</taxonRankValue> ta_taxonomy wrong? -->
+                    <taxonomicClassification>
+                      <taxonRankName>Genus</taxonRankName>
+                      <taxonRankValue>Liagora</taxonRankValue>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+          <taxonomicClassification>
+            <taxonRankName>Division</taxonRankName>
+            <taxonRankValue>Phaeophyta</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Class</taxonRankName>
+              <taxonRankValue>Phaeophyceae</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>Order</taxonRankName>
+                <taxonRankValue>Dictyotales</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Family</taxonRankName>
+                  <taxonRankValue>Dictyotaceae</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus</taxonRankName>
+                    <taxonRankValue>Dictyota</taxonRankValue>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Genus</taxonRankName>
+                    <taxonRankValue>Lobophora</taxonRankValue>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <commonName>Macroalgae</commonName>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <commonName>Algal Turf</commonName>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>This is an ongoing dataset. Data are collected annually.</para>
+      </description>
+      <maintenanceUpdateFrequency>annually</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact
+      id="csun-vinp-contact-pete" scope="system"
+        system="csun">
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Pete</givenName>
+        <surName>Edmunds</surName>
+      </individualName>
+      <positionName>Principal Investigator</positionName>
+      <address
+        scope="document">
+        <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+        <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+        <city>Northridge</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>91330-8303</postalCode>
+        <country>USA</country>
+      </address>
+      <phone
+      phonetype="voice">818.677.2502</phone>
+      <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+      <onlineUrl>http://www.csun.edu/biology/faculty/edmunds.htm</onlineUrl>
+    </contact>
+    <contact
+      id="vinps-contact" scope="system"
+        system="csun">
+      <individualName>
+        <salutation>Mr.</salutation>
+        <givenName>Thomas</givenName>
+        <surName>Kelley</surName>
+      </individualName>
+      <organizationName>National Park Service</organizationName>
+      <positionName>Chief</positionName>
+      <address
+                scope="document">
+        <deliveryPoint>Division of Resource Management</deliveryPoint>
+        <deliveryPoint>St John</deliveryPoint>
+        <administrativeArea>US Virgin Islands</administrativeArea>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>Thomas_Kelley@nps.gov</electronicMailAddress>
+    </contact>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <individualName>
+        <givenName>Hannah</givenName>
+        <surName>Ake</surName>
+      </individualName>
+      <electronicMailAddress>ake.hannah@gmail.com</electronicMailAddress>
+      <onlineUrl>http://coralreefs.csun.edu/</onlineUrl>
+    </contact>
+    <publisher><organizationName>Environmental Data Initiative</organizationName><electronicMailAddress>info@environmentaldatainitiative.org</electronicMailAddress><onlineUrl>https://environmentaldatainitiative.org</onlineUrl></publisher><pubPlace>Environmental Data Initiative</pubPlace><methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Sampling design and sites</title>
+            <para>Tektite – this is at 14 m depth on the eastern side of Great Lameshur
+							Bay and is the original site of the Tektite man-in-the sea project in
+							1969; this project marked the birth of the Virgin Islands Ecological
+							Research Station (later the Virgin Islands Environmental Resource
+							Station) that hosts the field component of the project. The reef in this
+							location consists of a single buttress that has remained dominated by
+							Montastraea anularis since the start of the research (1987). These
+							surveys consist of 30 photoquadrats (1 x 1 m) distributed along three,
+							10 m transects. </para>
+            <para>Yawzi – this is at 9 m depth and is on the western side of Great
+							Lameshur Bay and has been recorded photographically since 1987. This
+							reef also started the study period dominated by Montastraea annularis,
+							but has degraded much more rapidly that the Tektite site. These surveys
+							consist of 30 photoquadrats (1 x 1 m) distributed along three, 10 m
+							transects.</para>
+            <para>Random Sites - The Random sites were selected using random coordinates in 1992, 
+							and consist of 6 sites (at 7-9 m depth) scattered between Cabritte 
+							Point and White Point. All lie a little shoreward of Yawzi and Tektite, and have always been characterized by 
+							low coral cover (less than 10% cover). The surveys consist of 18-40 photoquadrats (0.5 x 0.5 m; with sample size determined 
+							by the exposures on a 35 mm cassette versus digital techniques) that are placed at random points along a transect. </para>
+            <!-- were added in 1992 to address the concern that the original sites (Yawzi and Tektite) 
+							were selected on “good” areas of reef and, therefore, could only decline in condition. The Random sites were 
+							selected using random coordinates in 1992, and consist of 6 sites (at 7-9 m depth) scattered between Cabritte 
+							Point and White Point. All lie a little shoreward of Yawzi and Tektite, and have always been characterized by 
+							low coral cover (< 10% cover). The surveys consist of 18-40 photoquadrats (0.5 x 0.5 m; with sample size determined 
+							by the exposures on a 35 mm cassette versus digital techniques) that are placed at random points along a transect.  -->
+          </section>
+          <section>
+            <title>Parameters for Photoquadrat Analysis</title>
+            <para>CPCe software is used to quantify the area of benthic taxa using a
+							matrix of 200 randomly spaced dots each 15 pixels in diameter. Prior to
+							the use of CPCe the area of benthic taxa was quantified by superimposing
+							a matrix of 200 randomly located circles on the image and counting the
+							circles landing on the substratum category of interest. </para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>References for coral taxonomy </title>
+            <para> Veron JEN (2000) Corals of the World - Volumes 1, 2, 3. Australian
+							Institute of Marine Science, Townsville, Australia. 1382pp </para>
+            <para>BUDD, A. F., FUKAMI, H., SMITH, N. D. and KNOWLTON, N. (2012),
+							Taxonomic classification of the reef coral family Mussidae (Cnidaria:
+							Anthozoa: Scleractinia). Zoological Journal of the Linnean Society, 166:
+							465–529. doi: 10.1111/j.1096-3642.2012.00855.x</para>
+          </section>
+          <section>
+            <title>Reference for algae taxonomy</title>
+            <para> Retrieved March 2011 from on-line database, Integrated Taxonomic
+							Information System (ITIS) http://www.itis.gov/ </para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title> Reference for software </title>
+            <para>Kohler, K.E. and S.M. Gill, 2006. Coral Point Count with Excel
+							extensions (CPCe): A Visual Basic program for the determination of coral
+							and substrate coverage using random point count methodology. Computers
+							and Geosciences, Vol. 32, No. 9, pp. 1259-1269,
+							DOI:10.1016/j.cageo.2005.11.009. </para>
+          </section>
+        </description>
+        <protocol>
+          <title>Coral Point Count with Excel extensions (CPCe)</title>
+          <creator>
+            <organizationName>Kevin E. Kohler</organizationName>
+            <!-- TODO: this is a hack to work around an error in the skin which shows surName as a contact in search results -->
+          </creator>
+          <distribution>
+            <online>
+              <url
+      function="download">http://www.nova.edu/ocean/cpce/</url>
+            </online>
+          </distribution>
+        </protocol>
+      </methodStep>
+    </methods>
+    <project
+        scope="document">
+      <title>Long-term changes in coral reef community dynamics in St. John, US Virgin Islands</title>
+      <personnel
+        id="pedmunds"
+          scope="document">
+        <individualName>
+          <givenName>Peter</givenName>
+          <surName>Edmunds</surName>
+        </individualName>
+        <organizationName>CSUN</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address
+          scope="document">
+          <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+          <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+          <city>Northridge</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>91330-8303</postalCode>
+          <country>USA</country>
+        </address>
+        <phone
+      phonetype="voice">818.677.2502</phone>
+        <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/vinp/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <section>
+          <para> This project focuses on the long-term community dynamics of shallow coral
+						reefs on the south shore of St. John. The project began in 1987 and consists
+						of permanently marked areas that are photographed annually for the analysis
+						of benthic community structure and areas that are censused annually for the
+						density of juvenile corals. All of the work takes place on reefs at less
+						than 14 m depth, and virtually all of the study sites fall between Cabritte
+						Point to the east, and White Point to the west. The project is independent
+						of, but complimentary to, the larger-scale reef monitoring program conducted
+						by the Virgin Islands National Park. The project described here is an
+						independent academic effort led by Dr. Peter Edmunds from California State
+						University, Northridge. </para>
+          <para> The objective of this study is to describe coral reef community dynamics
+						in great detail from a small area to first, elucidate the patterns of change
+						in key components of the benthic coral reefs, and second, to test for
+						processes that drive the changes observed. The core of the project relies on
+						high resolution digital images that have been recorded at least annually
+						since December 1987, and are available here as a invaluable photographic
+						archive for further analysis and to corroborate existing numerical
+						descriptions. In addition to the photographs, the density of juvenile corals
+						has been recorded at multiple sites since 1994. </para>
+        </section>
+      </abstract>
+      <funding>
+        <para>California State University, Northridge</para>
+        <para>National Science Foundation, Division of Environmental Biology</para>
+        <para>2021 - NSF-OCE – Grant Number: 17-56678</para>
+        <para>2019 - NSF-OCE – Grant Number: 18-01335 RAPID</para>
+        <para>2019 - NSF-OCE – Grant Number: 13-50146</para>
+        <para>2014 – NSF-LTREB – Grant Number: 08-41441</para>
+        <para>2008 - NSF-LTREB – Grant Number: 03-43570</para>
+        <para>2008 - University of Puerto Rico Sea Grant – Grant Number –
+					R-101-1-06</para>
+        <para>2004 - University of Puerto Rico Sea Grant – Grant Number –
+					R-101-2-02</para>
+        <para>1995 - Office of Naval Research – Grant Number N00014-93-1-0440</para>
+      </funding>
+    </project>
+    <dataTable
+      id="Tektite_Yawzi"
+        scope="document">
+      <entityName>Percent Cover at Tektite and Yawzi</entityName>
+      <entityDescription>Percent cover of coral in photoquadrats recorded at Tektite and Yawzi.</entityDescription>
+      <physical
+          scope="document">
+        <objectName>CSUN_USVI_yawzi_tektite_20210401.csv</objectName>
+        <size
+          unit="Kb">86</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution
+              scope="document">
+          <online>
+            <url
+        function="download">https://pasta.lternet.edu/package/data/eml/edi/291/2/8161eb809525300f714daed595d04f1b</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage
+          scope="document">
+        <geographicCoverage
+          scope="document">
+          <geographicDescription>Yawzi</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-64.72551007</westBoundingCoordinate>
+            <eastBoundingCoordinate>-64.72551007</eastBoundingCoordinate>
+            <northBoundingCoordinate>18.31506678</northBoundingCoordinate>
+            <southBoundingCoordinate>18.31506678</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <geographicCoverage
+          scope="document">
+          <geographicDescription>Tektite</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-64.72321746</westBoundingCoordinate>
+            <eastBoundingCoordinate>-64.72321746</eastBoundingCoordinate>
+            <northBoundingCoordinate>18.30996508</northBoundingCoordinate>
+            <southBoundingCoordinate>18.30996508</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </coverage>
+      <attributeList>
+        <attribute
+          id="Tektite_Yawzi.date"
+            scope="document">
+          <attributeName>date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date that quadrat was photographed or videotaped.</attributeDefinition>
+          <storageType
+          typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute
+          id="Tektite_Yawzi_wide.site"
+            scope="document">
+          <attributeName>site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Location of quadrat that was photographed or videotaped.</attributeDefinition>
+          <storageType
+          typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Tektite</code>
+                    <definition>Site is Tektite</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Yawzi</code>
+                    <definition>Site is Yawzi</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute
+          id="Tektite_Yawzi.transect"
+            scope="document">
+          <attributeName>transect</attributeName>
+          <attributeLabel>Transect</attributeLabel>
+          <attributeDefinition>Transect number</attributeDefinition>
+          <storageType
+          typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Yawzi_Tektite.quadrat"
+            scope="document">
+          <attributeName>quadrat</attributeName>
+          <attributeLabel>Quadrat</attributeLabel>
+          <attributeDefinition>Quadrat number</attributeDefinition>
+          <storageType
+          typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Transect number (T) and quadrat number (Q).</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute
+          id="Yawzi_Tektite.percentCover_allCoral"
+            scope="document">
+          <attributeName>percentCover_allCoral</attributeName>
+          <attributeLabel>All Coral Percent Coverage</attributeLabel>
+          <attributeDefinition>Summed cover of all scleractinians.</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+          exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Yawzi_Tektite.percentCover_macroalage"
+            scope="document">
+          <attributeName>percentCover_macroalgae</attributeName>
+          <attributeLabel>Macroalgae Percent Coverage</attributeLabel>
+          <attributeDefinition>Summed cover of macroalgae inlcuding Dictyota, Halimedia, Lobophora.</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+          exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Yawzi_Tektite.percentCover_ctb"
+            scope="document">
+          <attributeName>percentCover_CTB</attributeName>
+          <attributeLabel>CTB Percent Coverage</attributeLabel>
+          <attributeDefinition>Combined category of crustose coralline algae, bare space and algal turf.</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+      exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>2223</numberOfRecords>
+    </dataTable>
+    <dataTable
+      id="Random_taxa"
+        scope="document">
+      <entityName>Random Site Coral Cover by Taxa</entityName>
+      <entityDescription>Percent cover of coral in photoquadrats recorded at Random sites, organized by taxa.
+				</entityDescription>
+      <physical
+          scope="document">
+        <objectName>CSUN_USVI_random_20210401.csv</objectName>
+        <size
+          unit="Kb">877</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution
+              scope="document">
+          <online>
+            <url
+        function="download">https://pasta.lternet.edu/package/data/eml/edi/291/2/964764c5763d75d2f7ab9235bdeaddc7</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage
+          scope="document">
+        <geographicCoverage
+          id="Cabritte Horn taxa wide">
+          <geographicDescription>Cabritte Horn</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-64.72164419</westBoundingCoordinate>
+            <eastBoundingCoordinate>-64.72164419</eastBoundingCoordinate>
+            <northBoundingCoordinate>18.30713526</northBoundingCoordinate>
+            <southBoundingCoordinate>18.30713526</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <geographicCoverage
+          id="East Tektite taxa wide">
+          <geographicDescription>East Tektite</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-64.72181924</westBoundingCoordinate>
+            <eastBoundingCoordinate>-64.72181924</eastBoundingCoordinate>
+            <northBoundingCoordinate>18.31095579</northBoundingCoordinate>
+            <southBoundingCoordinate>18.31095579</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <geographicCoverage
+          id="Europa taxa wide">
+          <geographicDescription>Europa</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-64.72998517</westBoundingCoordinate>
+            <eastBoundingCoordinate>-64.72998517</eastBoundingCoordinate>
+            <northBoundingCoordinate>18.31673677</northBoundingCoordinate>
+            <southBoundingCoordinate>18.31673677</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <geographicCoverage
+          id="Neptune's Table taxa wide">
+          <geographicDescription>Neptune's Table</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-64.72301093</westBoundingCoordinate>
+            <eastBoundingCoordinate>-64.72301093</eastBoundingCoordinate>
+            <northBoundingCoordinate>18.3125466</northBoundingCoordinate>
+            <southBoundingCoordinate>18.3125466</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <geographicCoverage
+          id="West Little Lamshur Bay taxa wide">
+          <geographicDescription>West Little Lamshur Bay</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-64.72779501</westBoundingCoordinate>
+            <eastBoundingCoordinate>-64.72779501</eastBoundingCoordinate>
+            <northBoundingCoordinate>18.31725847</northBoundingCoordinate>
+            <southBoundingCoordinate>18.31725847</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <geographicCoverage
+          id="White Point taxa wide">
+          <geographicDescription>White Point</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-64.73130735</westBoundingCoordinate>
+            <eastBoundingCoordinate>-64.73130735</eastBoundingCoordinate>
+            <northBoundingCoordinate>18.31445176</northBoundingCoordinate>
+            <southBoundingCoordinate>18.31445176</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </coverage>
+      <attributeList>
+        <attribute
+          id="Random_taxa_wide.Site"
+            scope="document">
+          <attributeName>site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Location of the quadrat that was photographed or videotaped. Random site.</attributeDefinition>
+          <storageType
+          typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Cabritte Horn</code>
+                    <definition>Site is Cabritte Horn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>East Tektite</code>
+                    <definition>Site is East Tektite</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Europa Bay</code>
+                    <definition>Site is Europa</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Neptunes Table</code>
+                    <definition>Site is Neptune's Table</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>West Little Lameshur</code>
+                    <definition>Site is West Little Lameshur Bay</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>White Point</code>
+                    <definition>Site is White Point</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute
+          id="Random_taxa.Quadrat"
+            scope="document">
+          <attributeName>quadrat</attributeName>
+          <attributeLabel>Quadrat</attributeLabel>
+          <attributeDefinition>Random quadrat on which photograph was taken. Changes every year.</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="true">1</minimum>
+                  <maximum
+          exclusive="true">40</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Random_taxa.Year"
+            scope="document">
+          <attributeName>year</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>Nominal year that quadrat was photographed or videotaped.</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum
+                    exclusive="true">1987</minimum>
+                  <maximum
+          exclusive="true">2020</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <!--<attribute id="Random_taxa_wide.Image_ID" scope="document">
+					<attributeName>image_id</attributeName>
+					<attributeLabel>Image Name</attributeLabel>
+					<attributeDefinition>Descriptive name of the image file.</attributeDefinition>
+					<storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Name of image file.</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>-->
+        <attribute
+          id="Random_taxa.percentcover_all"
+            scope="document">
+          <attributeName>percentCover_all</attributeName>
+          <attributeLabel>Percent Cover - All species</attributeLabel>
+          <attributeDefinition>Summed cover of all species</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+          exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Random_taxa.percentcover_macroalgae"
+            scope="document">
+          <attributeName>percentCover_macroalgae</attributeName>
+          <attributeLabel>Percent Cover - Macroalgae</attributeLabel>
+          <attributeDefinition>Summed cover of all macroalgae.</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+          exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Random_taxa.percentcover_ctb"
+            scope="document">
+          <attributeName>percentCover_CTB</attributeName>
+          <attributeLabel>Percent Cover - CTB</attributeLabel>
+          <attributeDefinition>Summed cover of all CTB.</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+          exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Random_taxa.Orbicella"
+            scope="document">
+          <attributeName>Orbicella</attributeName>
+          <attributeLabel>Orbicella - Percent Cover</attributeLabel>
+          <attributeDefinition>Summed cover of all Orbicella</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+          exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Random_taxa.Montastrea_cavernosa"
+            scope="document">
+          <attributeName>Montastrea_cavernosa</attributeName>
+          <attributeLabel>Montastrea cavernosa - Percent Cover</attributeLabel>
+          <attributeDefinition>Summed cover of all Montastrea cavernosa</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+          exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Random_taxa.Agaricia"
+            scope="document">
+          <attributeName>Agaricia</attributeName>
+          <attributeLabel>Agaricia - Percent Cover</attributeLabel>
+          <attributeDefinition>Summed cover of all Agaricia</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+          exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Random_taxa.Colpophyllia"
+            scope="document">
+          <attributeName>Colpophyllia</attributeName>
+          <attributeLabel>Colpophyllia - Percent Cover</attributeLabel>
+          <attributeDefinition>Summed cover of all Colpophyllia</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+          exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Random_taxa.Dendrogyra"
+            scope="document">
+          <attributeName>Dendrogyra</attributeName>
+          <attributeLabel>Dendrogyra - Percent Cover</attributeLabel>
+          <attributeDefinition>Summed cover of all Dendrogyra</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+          exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Random_taxa.Dichocoenia"
+            scope="document">
+          <attributeName>Dichocoenia</attributeName>
+          <attributeLabel>Dichocoenia - Percent Cover</attributeLabel>
+          <attributeDefinition>Summed cover of all Dichocoenia</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+          exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Random_taxa.Diploria"
+            scope="document">
+          <attributeName>Diploria</attributeName>
+          <attributeLabel>Diploria - Percent Cover</attributeLabel>
+          <attributeDefinition>Summed cover of all Diploria</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+          exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Random_taxa.Eusmilia"
+            scope="document">
+          <attributeName>Eusmilia</attributeName>
+          <attributeLabel>Eusmilia - Percent Cover</attributeLabel>
+          <attributeDefinition>Summed cover of all Eusmilia</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+          exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Random_taxa.Favia"
+            scope="document">
+          <attributeName>Favia</attributeName>
+          <attributeLabel>Favia - Percent Cover</attributeLabel>
+          <attributeDefinition>Summed cover of all Favia</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+          exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Random_taxa.Madracis"
+            scope="document">
+          <attributeName>Madracis</attributeName>
+          <attributeLabel>Madracis - Percent Cover</attributeLabel>
+          <attributeDefinition>Summed cover of all Madracis</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+          exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Random_taxa.Meandrina"
+            scope="document">
+          <attributeName>Meandrina</attributeName>
+          <attributeLabel>Meandrina - Percent Cover</attributeLabel>
+          <attributeDefinition>Summed cover of all Meandrina</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+          exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Random_taxa.Mussa"
+            scope="document">
+          <attributeName>Mussa</attributeName>
+          <attributeLabel>Mussa - Percent Cover</attributeLabel>
+          <attributeDefinition>Summed cover of all Mussa</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+          exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Random_taxa.Porites"
+            scope="document">
+          <attributeName>Porites</attributeName>
+          <attributeLabel>Porites - Percent Cover</attributeLabel>
+          <attributeDefinition>Summed cover of all Porites</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+          exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Random_taxa.Stephanocoenia"
+            scope="document">
+          <attributeName>Stephanocoenia</attributeName>
+          <attributeLabel>Stephanocoenia - Percent Cover</attributeLabel>
+          <attributeDefinition>Summed cover of all Stephanocoenia</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+          exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Random_taxa.Siderastrea"
+            scope="document">
+          <attributeName>Siderastrea</attributeName>
+          <attributeLabel>Siderastrea - Percent Cover</attributeLabel>
+          <attributeDefinition>Summed cover of all Siderastrea</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+          exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Random_taxa.Manicina"
+            scope="document">
+          <attributeName>Manicina</attributeName>
+          <attributeLabel>Manicina - Percent Cover</attributeLabel>
+          <attributeDefinition>Summed cover of all Manicina</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+          exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Random_taxa.Mycetopohyllia"
+            scope="document">
+          <attributeName>Mycetopohyllia</attributeName>
+          <attributeLabel>Mycetopohyllia - Percent Cover</attributeLabel>
+          <attributeDefinition>Summed cover of all Mycetopohyllia</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+          exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Random_taxa.Acropora"
+            scope="document">
+          <attributeName>Acropora</attributeName>
+          <attributeLabel>Acropora - Percent Cover</attributeLabel>
+          <attributeDefinition>Summed cover of all Acropora</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+          exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Random_taxa.Isophyllia"
+            scope="document">
+          <attributeName>Isophyllia</attributeName>
+          <attributeLabel>Isophyllia - Percent Cover</attributeLabel>
+          <attributeDefinition>Summed cover of all Isophyllastrea</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+          exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Random_taxa.Scolymia"
+            scope="document">
+          <attributeName>Scolymia</attributeName>
+          <attributeLabel>Scolymia - Percent Cover</attributeLabel>
+          <attributeDefinition>Summed cover of all Scolymia</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+          exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute
+          id="Random_taxa.Millepora"
+            scope="document">
+          <attributeName>Millepora</attributeName>
+          <attributeLabel>Millepora - Percent Cover</attributeLabel>
+          <attributeDefinition>Summed cover of all Millepora</attributeDefinition>
+          <storageType
+                    typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum
+                    exclusive="false">0</minimum>
+                  <maximum
+            exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>nd</code>
+            <codeExplanation>No data, or data disregarded.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>5999</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <stmml:unitList>
+          <stmml:unit
+            abbreviation="" id="dimensionless" name="dimensionless"
+            unitType="dimensionless">
+            <stmml:description>a designation asserting the absence of an associated unit</stmml:description>
+          </stmml:unit>
+          <stmml:unit
+            abbreviation="" id="percent" name="percent" unitType="dimensionless">
+            <stmml:description>ratio of two quantities as percent composition (1:100)</stmml:description>
+          </stmml:unit>
+        </stmml:unitList>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

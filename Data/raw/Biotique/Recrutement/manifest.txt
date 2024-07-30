@@ -1,0 +1,5 @@
+Manifest file for edi.292.1-4c9184f37cff01bcdc32dc486ec36961.zip created on Mon Oct 04 14:30:02 MDT 2021
+CSUN_USVI_spat_counts_20181007.csv (25211 bytes)
+edi.292.1.xml (31841 bytes)
+edi.292.1.txt (11113 bytes)
+edi.292.1.report.xml (29798 bytes)

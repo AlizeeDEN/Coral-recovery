@@ -1,0 +1,9 @@
+Manifest file for edi.296.1-4c9184f37cff01bcdc32dc486ec36961.zip created on Fri Apr 30 03:37:46 MDT 2021
+CSUN_USVI_temperature_Daily_20190609.csv (401729 bytes)
+CSUN_USVI_rainfall_20190609.csv (10706 bytes)
+CSUN_USVI_light_daily_20150224.csv (38176 bytes)
+CSUN_USVI_light_5min_20190609.csv (9750207 bytes)
+CSUN_USVI_light_30sec_20190609.csv (2065405 bytes)
+edi.296.1.xml (39307 bytes)
+edi.296.1.txt (10387 bytes)
+edi.296.1.report.xml (100796 bytes)
