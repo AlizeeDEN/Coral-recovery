@@ -1,4 +1,4 @@
-# Analyse de la Variabilité du Recouvrement des Coraux dans les Îles Vierges
+# Variabilité du Recouvrement des Coraux dans les Îles Vierges
 
 ## Introduction
 Les récifs coralliens servent de refuge pour une biodiversité marine élevée, soutenant des niveaux trophiques élevés (Weijerman et al., 2018). Il a été démontré que la diversité des coraux est positivement corrélée à la production de poissons dans les écosystèmes marins tropicaux (Micheli et al., 2014). Cependant, les coraux constructeurs de récifs sont en déclin, particulièrement dans les Caraïbes (Gardner et al., 2003). Les effets combinés de la surpêche et du changement climatique sont responsables de cette diminution. Le blanchiment des coraux, causé par des augmentations de température et de radiance, est un phénomène bien documenté (Brown, 1996).
